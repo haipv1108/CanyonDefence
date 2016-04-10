@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: ffaaf827921ae98428766f070eca8964
+timeCreated: 1460303074
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_0
+    21300002: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_1
+    21300004: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_2
+    21300006: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_3
+    21300008: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_4
+    21300010: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_5
+    21300012: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_6
+    21300014: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_7
+    21300016: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_8
+    21300018: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_9
+    21300020: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_10
+    21300022: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_11
+    21300024: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_12
+    21300026: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_13
+    21300028: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_14
+    21300030: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_15
+    21300032: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_16
+    21300034: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_17
+    21300036: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_18
+    21300038: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_19
+    21300040: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_20
+    21300042: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_21
+    21300044: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_22
+    21300046: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_23
+    21300048: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_24
+    21300050: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_25
+    21300052: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_26
+    21300054: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_27
+    21300056: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_28
+    21300058: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_29
+    21300060: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_30
+    21300062: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_31
+    21300064: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_32
+    21300066: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_33
+    21300068: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_34
+    21300070: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_35
+    21300072: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_36
+    21300074: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_37
+    21300076: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_38
+    21300078: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_39
+    21300080: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 128
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 232
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 209
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 203
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 204
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 204
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 174
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 172
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 205
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 155
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 109
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 38
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 109
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 127
+        width: 24
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 140
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 49
+        width: 28
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 101
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 97
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 42
+        width: 12
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 89
+        width: 51
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 47
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 44
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 56
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 59
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 28
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 23
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 37
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 4
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^002_nuclear blast^002_nuclear_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 13
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

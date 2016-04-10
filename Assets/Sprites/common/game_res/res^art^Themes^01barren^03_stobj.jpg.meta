@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: c5b5bd189f389dd46a7999cc4fcdaf07
+timeCreated: 1460303204
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Themes^01barren^03_stobj_0
+    21300002: res^art^Themes^01barren^03_stobj_1
+    21300004: res^art^Themes^01barren^03_stobj_2
+    21300006: res^art^Themes^01barren^03_stobj_3
+    21300008: res^art^Themes^01barren^03_stobj_4
+    21300010: res^art^Themes^01barren^03_stobj_5
+    21300012: res^art^Themes^01barren^03_stobj_6
+    21300014: res^art^Themes^01barren^03_stobj_7
+    21300016: res^art^Themes^01barren^03_stobj_8
+    21300018: res^art^Themes^01barren^03_stobj_9
+    21300020: res^art^Themes^01barren^03_stobj_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Themes^01barren^03_stobj_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 190
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 202
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 98
+        width: 108
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 58
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^01barren^03_stobj_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

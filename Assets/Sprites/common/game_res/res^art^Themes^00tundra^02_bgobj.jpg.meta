@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 6d8bb68929d7f2e47a5d7d76368f4e5b
+timeCreated: 1460303162
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Themes^00tundra^02_bgobj_0
+    21300002: res^art^Themes^00tundra^02_bgobj_1
+    21300004: res^art^Themes^00tundra^02_bgobj_2
+    21300006: res^art^Themes^00tundra^02_bgobj_3
+    21300008: res^art^Themes^00tundra^02_bgobj_4
+    21300010: res^art^Themes^00tundra^02_bgobj_5
+    21300012: res^art^Themes^00tundra^02_bgobj_6
+    21300014: res^art^Themes^00tundra^02_bgobj_7
+    21300016: res^art^Themes^00tundra^02_bgobj_8
+    21300018: res^art^Themes^00tundra^02_bgobj_9
+    21300020: res^art^Themes^00tundra^02_bgobj_10
+    21300022: res^art^Themes^00tundra^02_bgobj_11
+    21300024: res^art^Themes^00tundra^02_bgobj_12
+    21300026: res^art^Themes^00tundra^02_bgobj_13
+    21300028: res^art^Themes^00tundra^02_bgobj_14
+    21300030: res^art^Themes^00tundra^02_bgobj_15
+    21300032: res^art^Themes^00tundra^02_bgobj_16
+    21300034: res^art^Themes^00tundra^02_bgobj_17
+    21300036: res^art^Themes^00tundra^02_bgobj_18
+    21300038: res^art^Themes^00tundra^02_bgobj_19
+    21300040: res^art^Themes^00tundra^02_bgobj_20
+    21300042: res^art^Themes^00tundra^02_bgobj_21
+    21300044: res^art^Themes^00tundra^02_bgobj_22
+    21300046: res^art^Themes^00tundra^02_bgobj_23
+    21300048: res^art^Themes^00tundra^02_bgobj_24
+    21300050: res^art^Themes^00tundra^02_bgobj_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Themes^00tundra^02_bgobj_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 193
+        width: 156
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 244
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 117
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 214
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 228
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 83
+        width: 61
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 129
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 127
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 167
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 203
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 169
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 56
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 185
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 102
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 140
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 141
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_16
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 97
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 140
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 59
+        width: 99
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 100
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 28
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 18
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 19
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^00tundra^02_bgobj_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

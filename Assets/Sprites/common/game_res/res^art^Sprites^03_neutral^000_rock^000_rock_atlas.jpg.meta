@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: 96ac9538b53310c429e7d6127be8c7f2
+timeCreated: 1460302996
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_0
+    21300002: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_1
+    21300004: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_2
+    21300006: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_3
+    21300008: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_4
+    21300010: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_5
+    21300012: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_6
+    21300014: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_7
+    21300016: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_8
+    21300018: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_9
+    21300020: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_10
+    21300022: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_11
+    21300024: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_12
+    21300026: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_13
+    21300028: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_14
+    21300030: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_15
+    21300032: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_16
+    21300034: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_17
+    21300036: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_18
+    21300038: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_19
+    21300040: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_20
+    21300042: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_21
+    21300044: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_22
+    21300046: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_23
+    21300048: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_24
+    21300050: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_25
+    21300052: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_26
+    21300054: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_27
+    21300056: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_28
+    21300058: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_29
+    21300060: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_30
+    21300062: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_31
+    21300064: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_32
+    21300066: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_33
+    21300068: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_34
+    21300070: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_35
+    21300072: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_36
+    21300074: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_37
+    21300076: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_38
+    21300078: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_39
+    21300080: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_40
+    21300082: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_41
+    21300084: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_42
+    21300086: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_43
+    21300088: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_44
+    21300090: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_45
+    21300092: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_46
+    21300094: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_47
+    21300096: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_48
+    21300098: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_49
+    21300100: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_50
+    21300102: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_51
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 473
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 452
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 356
+        width: 108
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 451
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 400
+        width: 61
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 455
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 423
+        width: 128
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 448
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 454
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 454
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 427
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 396
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 388
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 387
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 292
+        width: 108
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 276
+        width: 84
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 350
+        width: 111
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 384
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 344
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 320
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 320
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 260
+        width: 108
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 343
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 286
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 331
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 290
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 256
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 167
+        width: 63
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 277
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 203
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 228
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 168
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 90
+        width: 58
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 216
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 30
+        width: 110
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 220
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 143
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 160
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 112
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 105
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 150
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 147
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 57
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 52
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 64
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 67
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 28
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 44
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^03_neutral^000_rock^000_rock_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 7
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: e6dbdb78e20b8254596167178c4678d5
+timeCreated: 1460302893
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_0
+    21300002: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_1
+    21300004: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_2
+    21300006: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_3
+    21300008: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_4
+    21300010: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_5
+    21300012: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_6
+    21300014: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_7
+    21300016: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_8
+    21300018: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_9
+    21300020: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_10
+    21300022: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_11
+    21300024: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_12
+    21300026: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_13
+    21300028: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_14
+    21300030: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_15
+    21300032: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_16
+    21300034: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_17
+    21300036: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_18
+    21300038: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_19
+    21300040: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_20
+    21300042: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_21
+    21300044: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_22
+    21300046: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_23
+    21300048: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_24
+    21300050: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_25
+    21300052: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_26
+    21300054: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_27
+    21300056: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_28
+    21300058: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 214
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 237
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 234
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 222
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 230
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 218
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 214
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 215
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 187
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 186
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 187
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 180
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 93
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 143
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 118
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 82
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 55
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^016_boss_03^016_boss_03_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 3fe39159c4536ba4ab55eb304cac8448
+timeCreated: 1460302808
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_0
+    21300002: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_1
+    21300004: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_2
+    21300006: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_3
+    21300008: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_4
+    21300010: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_5
+    21300012: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_6
+    21300014: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_7
+    21300016: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_8
+    21300018: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_9
+    21300020: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_10
+    21300022: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_11
+    21300024: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_12
+    21300026: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_13
+    21300028: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 190
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 191
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 189
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 207
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 125
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 120
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 99
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 54
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^01_enemy^006_disabler^006_disabler_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

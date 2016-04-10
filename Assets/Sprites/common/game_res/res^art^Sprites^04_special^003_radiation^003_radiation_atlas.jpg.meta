@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 350f678360b26454a9e6e3729dc120b8
+timeCreated: 1460303081
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_0
+    21300002: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_1
+    21300004: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_2
+    21300006: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_3
+    21300008: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_4
+    21300010: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_5
+    21300012: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_6
+    21300014: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_7
+    21300016: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_8
+    21300018: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_9
+    21300020: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_10
+    21300022: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_11
+    21300024: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_12
+    21300026: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 146
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 444
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 350
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 425
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 426
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 425
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 425
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 250
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 242
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^04_special^003_radiation^003_radiation_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

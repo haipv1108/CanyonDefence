@@ -1,0 +1,1343 @@
+fileFormatVersion: 2
+guid: e2c5b8c701e4a304f93ce542449b330c
+timeCreated: 1460302632
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^00_player^005_focus^005_focus_atlas_0
+    21300002: res^art^Sprites^00_player^005_focus^005_focus_atlas_1
+    21300004: res^art^Sprites^00_player^005_focus^005_focus_atlas_2
+    21300006: res^art^Sprites^00_player^005_focus^005_focus_atlas_3
+    21300008: res^art^Sprites^00_player^005_focus^005_focus_atlas_4
+    21300010: res^art^Sprites^00_player^005_focus^005_focus_atlas_5
+    21300012: res^art^Sprites^00_player^005_focus^005_focus_atlas_6
+    21300014: res^art^Sprites^00_player^005_focus^005_focus_atlas_7
+    21300016: res^art^Sprites^00_player^005_focus^005_focus_atlas_8
+    21300018: res^art^Sprites^00_player^005_focus^005_focus_atlas_9
+    21300020: res^art^Sprites^00_player^005_focus^005_focus_atlas_10
+    21300022: res^art^Sprites^00_player^005_focus^005_focus_atlas_11
+    21300024: res^art^Sprites^00_player^005_focus^005_focus_atlas_12
+    21300026: res^art^Sprites^00_player^005_focus^005_focus_atlas_13
+    21300028: res^art^Sprites^00_player^005_focus^005_focus_atlas_14
+    21300030: res^art^Sprites^00_player^005_focus^005_focus_atlas_15
+    21300032: res^art^Sprites^00_player^005_focus^005_focus_atlas_16
+    21300034: res^art^Sprites^00_player^005_focus^005_focus_atlas_17
+    21300036: res^art^Sprites^00_player^005_focus^005_focus_atlas_18
+    21300038: res^art^Sprites^00_player^005_focus^005_focus_atlas_19
+    21300040: res^art^Sprites^00_player^005_focus^005_focus_atlas_20
+    21300042: res^art^Sprites^00_player^005_focus^005_focus_atlas_21
+    21300044: res^art^Sprites^00_player^005_focus^005_focus_atlas_22
+    21300046: res^art^Sprites^00_player^005_focus^005_focus_atlas_23
+    21300048: res^art^Sprites^00_player^005_focus^005_focus_atlas_24
+    21300050: res^art^Sprites^00_player^005_focus^005_focus_atlas_25
+    21300052: res^art^Sprites^00_player^005_focus^005_focus_atlas_26
+    21300054: res^art^Sprites^00_player^005_focus^005_focus_atlas_27
+    21300056: res^art^Sprites^00_player^005_focus^005_focus_atlas_28
+    21300058: res^art^Sprites^00_player^005_focus^005_focus_atlas_29
+    21300060: res^art^Sprites^00_player^005_focus^005_focus_atlas_30
+    21300062: res^art^Sprites^00_player^005_focus^005_focus_atlas_31
+    21300064: res^art^Sprites^00_player^005_focus^005_focus_atlas_32
+    21300066: res^art^Sprites^00_player^005_focus^005_focus_atlas_33
+    21300068: res^art^Sprites^00_player^005_focus^005_focus_atlas_34
+    21300070: res^art^Sprites^00_player^005_focus^005_focus_atlas_35
+    21300072: res^art^Sprites^00_player^005_focus^005_focus_atlas_36
+    21300074: res^art^Sprites^00_player^005_focus^005_focus_atlas_37
+    21300076: res^art^Sprites^00_player^005_focus^005_focus_atlas_38
+    21300078: res^art^Sprites^00_player^005_focus^005_focus_atlas_39
+    21300080: res^art^Sprites^00_player^005_focus^005_focus_atlas_40
+    21300082: res^art^Sprites^00_player^005_focus^005_focus_atlas_41
+    21300084: res^art^Sprites^00_player^005_focus^005_focus_atlas_42
+    21300086: res^art^Sprites^00_player^005_focus^005_focus_atlas_43
+    21300088: res^art^Sprites^00_player^005_focus^005_focus_atlas_44
+    21300090: res^art^Sprites^00_player^005_focus^005_focus_atlas_45
+    21300092: res^art^Sprites^00_player^005_focus^005_focus_atlas_46
+    21300094: res^art^Sprites^00_player^005_focus^005_focus_atlas_47
+    21300096: res^art^Sprites^00_player^005_focus^005_focus_atlas_48
+    21300098: res^art^Sprites^00_player^005_focus^005_focus_atlas_49
+    21300100: res^art^Sprites^00_player^005_focus^005_focus_atlas_50
+    21300102: res^art^Sprites^00_player^005_focus^005_focus_atlas_51
+    21300104: res^art^Sprites^00_player^005_focus^005_focus_atlas_52
+    21300106: res^art^Sprites^00_player^005_focus^005_focus_atlas_53
+    21300108: res^art^Sprites^00_player^005_focus^005_focus_atlas_54
+    21300110: res^art^Sprites^00_player^005_focus^005_focus_atlas_55
+    21300112: res^art^Sprites^00_player^005_focus^005_focus_atlas_56
+    21300114: res^art^Sprites^00_player^005_focus^005_focus_atlas_57
+    21300116: res^art^Sprites^00_player^005_focus^005_focus_atlas_58
+    21300118: res^art^Sprites^00_player^005_focus^005_focus_atlas_59
+    21300120: res^art^Sprites^00_player^005_focus^005_focus_atlas_60
+    21300122: res^art^Sprites^00_player^005_focus^005_focus_atlas_61
+    21300124: res^art^Sprites^00_player^005_focus^005_focus_atlas_62
+    21300126: res^art^Sprites^00_player^005_focus^005_focus_atlas_63
+    21300128: res^art^Sprites^00_player^005_focus^005_focus_atlas_64
+    21300130: res^art^Sprites^00_player^005_focus^005_focus_atlas_65
+    21300132: res^art^Sprites^00_player^005_focus^005_focus_atlas_66
+    21300134: res^art^Sprites^00_player^005_focus^005_focus_atlas_67
+    21300136: res^art^Sprites^00_player^005_focus^005_focus_atlas_68
+    21300138: res^art^Sprites^00_player^005_focus^005_focus_atlas_69
+    21300140: res^art^Sprites^00_player^005_focus^005_focus_atlas_70
+    21300142: res^art^Sprites^00_player^005_focus^005_focus_atlas_71
+    21300144: res^art^Sprites^00_player^005_focus^005_focus_atlas_72
+    21300146: res^art^Sprites^00_player^005_focus^005_focus_atlas_73
+    21300148: res^art^Sprites^00_player^005_focus^005_focus_atlas_74
+    21300150: res^art^Sprites^00_player^005_focus^005_focus_atlas_75
+    21300152: res^art^Sprites^00_player^005_focus^005_focus_atlas_76
+    21300154: res^art^Sprites^00_player^005_focus^005_focus_atlas_77
+    21300156: res^art^Sprites^00_player^005_focus^005_focus_atlas_78
+    21300158: res^art^Sprites^00_player^005_focus^005_focus_atlas_79
+    21300160: res^art^Sprites^00_player^005_focus^005_focus_atlas_80
+    21300162: res^art^Sprites^00_player^005_focus^005_focus_atlas_81
+    21300164: res^art^Sprites^00_player^005_focus^005_focus_atlas_82
+    21300166: res^art^Sprites^00_player^005_focus^005_focus_atlas_83
+    21300168: res^art^Sprites^00_player^005_focus^005_focus_atlas_84
+    21300170: res^art^Sprites^00_player^005_focus^005_focus_atlas_85
+    21300172: res^art^Sprites^00_player^005_focus^005_focus_atlas_86
+    21300174: res^art^Sprites^00_player^005_focus^005_focus_atlas_87
+    21300176: res^art^Sprites^00_player^005_focus^005_focus_atlas_88
+    21300178: res^art^Sprites^00_player^005_focus^005_focus_atlas_89
+    21300180: res^art^Sprites^00_player^005_focus^005_focus_atlas_90
+    21300182: res^art^Sprites^00_player^005_focus^005_focus_atlas_91
+    21300184: res^art^Sprites^00_player^005_focus^005_focus_atlas_92
+    21300186: res^art^Sprites^00_player^005_focus^005_focus_atlas_93
+    21300188: res^art^Sprites^00_player^005_focus^005_focus_atlas_94
+    21300190: res^art^Sprites^00_player^005_focus^005_focus_atlas_95
+    21300192: res^art^Sprites^00_player^005_focus^005_focus_atlas_96
+    21300194: res^art^Sprites^00_player^005_focus^005_focus_atlas_97
+    21300196: res^art^Sprites^00_player^005_focus^005_focus_atlas_98
+    21300198: res^art^Sprites^00_player^005_focus^005_focus_atlas_99
+    21300200: res^art^Sprites^00_player^005_focus^005_focus_atlas_100
+    21300202: res^art^Sprites^00_player^005_focus^005_focus_atlas_101
+    21300204: res^art^Sprites^00_player^005_focus^005_focus_atlas_102
+    21300206: res^art^Sprites^00_player^005_focus^005_focus_atlas_103
+    21300208: res^art^Sprites^00_player^005_focus^005_focus_atlas_104
+    21300210: res^art^Sprites^00_player^005_focus^005_focus_atlas_105
+    21300212: res^art^Sprites^00_player^005_focus^005_focus_atlas_106
+    21300214: res^art^Sprites^00_player^005_focus^005_focus_atlas_107
+    21300216: res^art^Sprites^00_player^005_focus^005_focus_atlas_108
+    21300218: res^art^Sprites^00_player^005_focus^005_focus_atlas_109
+    21300220: res^art^Sprites^00_player^005_focus^005_focus_atlas_110
+    21300222: res^art^Sprites^00_player^005_focus^005_focus_atlas_111
+    21300224: res^art^Sprites^00_player^005_focus^005_focus_atlas_112
+    21300226: res^art^Sprites^00_player^005_focus^005_focus_atlas_113
+    21300228: res^art^Sprites^00_player^005_focus^005_focus_atlas_114
+    21300230: res^art^Sprites^00_player^005_focus^005_focus_atlas_115
+    21300232: res^art^Sprites^00_player^005_focus^005_focus_atlas_116
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 452
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 449
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 449
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 448
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 449
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 449
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 449
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 450
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 451
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 452
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 452
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 452
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 452
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 452
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 452
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 388
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 384
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 383
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 382
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 384
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 384
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 384
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 386
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 389
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 389
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 389
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 389
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 389
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 389
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 389
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 389
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 324
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 319
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 317
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 317
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 319
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 319
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 322
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 322
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 265
+        width: 113
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 327
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 327
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 327
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 327
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 327
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 327
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 260
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 254
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 251
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 257
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 257
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 260
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 258
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 265
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 265
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 265
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 293
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 195
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 189
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 186
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 185
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 195
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 195
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 198
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 195
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 203
+        width: 113
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 203
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 231
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 231
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 141
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 141
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 141
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 197
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 197
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 131
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 124
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 120
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 133
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 133
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 136
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 131
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 163
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 66
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 58
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 55
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 54
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 71
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 71
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 74
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 68
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 79
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 79
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 97
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 24
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 21
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 20
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 9
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 9
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 12
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 6
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 17
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 17
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^005_focus^005_focus_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 11
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

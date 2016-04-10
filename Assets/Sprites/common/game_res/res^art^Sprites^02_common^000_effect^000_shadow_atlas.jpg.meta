@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 2afecd2a0c252e44ea3d3eae9dd32300
+timeCreated: 1460302938
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^02_common^000_effect^000_shadow_atlas_0
+    21300002: res^art^Sprites^02_common^000_effect^000_shadow_atlas_1
+    21300004: res^art^Sprites^02_common^000_effect^000_shadow_atlas_2
+    21300006: res^art^Sprites^02_common^000_effect^000_shadow_atlas_3
+    21300008: res^art^Sprites^02_common^000_effect^000_shadow_atlas_4
+    21300010: res^art^Sprites^02_common^000_effect^000_shadow_atlas_5
+    21300012: res^art^Sprites^02_common^000_effect^000_shadow_atlas_6
+    21300014: res^art^Sprites^02_common^000_effect^000_shadow_atlas_7
+    21300016: res^art^Sprites^02_common^000_effect^000_shadow_atlas_8
+    21300018: res^art^Sprites^02_common^000_effect^000_shadow_atlas_9
+    21300020: res^art^Sprites^02_common^000_effect^000_shadow_atlas_10
+    21300022: res^art^Sprites^02_common^000_effect^000_shadow_atlas_11
+    21300024: res^art^Sprites^02_common^000_effect^000_shadow_atlas_12
+    21300026: res^art^Sprites^02_common^000_effect^000_shadow_atlas_13
+    21300028: res^art^Sprites^02_common^000_effect^000_shadow_atlas_14
+    21300030: res^art^Sprites^02_common^000_effect^000_shadow_atlas_15
+    21300032: res^art^Sprites^02_common^000_effect^000_shadow_atlas_16
+    21300034: res^art^Sprites^02_common^000_effect^000_shadow_atlas_17
+    21300036: res^art^Sprites^02_common^000_effect^000_shadow_atlas_18
+    21300038: res^art^Sprites^02_common^000_effect^000_shadow_atlas_19
+    21300040: res^art^Sprites^02_common^000_effect^000_shadow_atlas_20
+    21300042: res^art^Sprites^02_common^000_effect^000_shadow_atlas_21
+    21300044: res^art^Sprites^02_common^000_effect^000_shadow_atlas_22
+    21300046: res^art^Sprites^02_common^000_effect^000_shadow_atlas_23
+    21300048: res^art^Sprites^02_common^000_effect^000_shadow_atlas_24
+    21300050: res^art^Sprites^02_common^000_effect^000_shadow_atlas_25
+    21300052: res^art^Sprites^02_common^000_effect^000_shadow_atlas_26
+    21300054: res^art^Sprites^02_common^000_effect^000_shadow_atlas_27
+    21300056: res^art^Sprites^02_common^000_effect^000_shadow_atlas_28
+    21300058: res^art^Sprites^02_common^000_effect^000_shadow_atlas_29
+    21300060: res^art^Sprites^02_common^000_effect^000_shadow_atlas_30
+    21300062: res^art^Sprites^02_common^000_effect^000_shadow_atlas_31
+    21300064: res^art^Sprites^02_common^000_effect^000_shadow_atlas_32
+    21300066: res^art^Sprites^02_common^000_effect^000_shadow_atlas_33
+    21300068: res^art^Sprites^02_common^000_effect^000_shadow_atlas_34
+    21300070: res^art^Sprites^02_common^000_effect^000_shadow_atlas_35
+    21300072: res^art^Sprites^02_common^000_effect^000_shadow_atlas_36
+    21300074: res^art^Sprites^02_common^000_effect^000_shadow_atlas_37
+    21300076: res^art^Sprites^02_common^000_effect^000_shadow_atlas_38
+    21300078: res^art^Sprites^02_common^000_effect^000_shadow_atlas_39
+    21300080: res^art^Sprites^02_common^000_effect^000_shadow_atlas_40
+    21300082: res^art^Sprites^02_common^000_effect^000_shadow_atlas_41
+    21300084: res^art^Sprites^02_common^000_effect^000_shadow_atlas_42
+    21300086: res^art^Sprites^02_common^000_effect^000_shadow_atlas_43
+    21300088: res^art^Sprites^02_common^000_effect^000_shadow_atlas_44
+    21300090: res^art^Sprites^02_common^000_effect^000_shadow_atlas_45
+    21300092: res^art^Sprites^02_common^000_effect^000_shadow_atlas_46
+    21300094: res^art^Sprites^02_common^000_effect^000_shadow_atlas_47
+    21300096: res^art^Sprites^02_common^000_effect^000_shadow_atlas_48
+    21300098: res^art^Sprites^02_common^000_effect^000_shadow_atlas_49
+    21300100: res^art^Sprites^02_common^000_effect^000_shadow_atlas_50
+    21300102: res^art^Sprites^02_common^000_effect^000_shadow_atlas_51
+    21300104: res^art^Sprites^02_common^000_effect^000_shadow_atlas_52
+    21300106: res^art^Sprites^02_common^000_effect^000_shadow_atlas_53
+    21300108: res^art^Sprites^02_common^000_effect^000_shadow_atlas_54
+    21300110: res^art^Sprites^02_common^000_effect^000_shadow_atlas_55
+    21300112: res^art^Sprites^02_common^000_effect^000_shadow_atlas_56
+    21300114: res^art^Sprites^02_common^000_effect^000_shadow_atlas_57
+    21300116: res^art^Sprites^02_common^000_effect^000_shadow_atlas_58
+    21300118: res^art^Sprites^02_common^000_effect^000_shadow_atlas_59
+    21300120: res^art^Sprites^02_common^000_effect^000_shadow_atlas_60
+    21300122: res^art^Sprites^02_common^000_effect^000_shadow_atlas_61
+    21300124: res^art^Sprites^02_common^000_effect^000_shadow_atlas_62
+    21300126: res^art^Sprites^02_common^000_effect^000_shadow_atlas_63
+    21300128: res^art^Sprites^02_common^000_effect^000_shadow_atlas_64
+    21300130: res^art^Sprites^02_common^000_effect^000_shadow_atlas_65
+    21300132: res^art^Sprites^02_common^000_effect^000_shadow_atlas_66
+    21300134: res^art^Sprites^02_common^000_effect^000_shadow_atlas_67
+    21300136: res^art^Sprites^02_common^000_effect^000_shadow_atlas_68
+    21300138: res^art^Sprites^02_common^000_effect^000_shadow_atlas_69
+    21300140: res^art^Sprites^02_common^000_effect^000_shadow_atlas_70
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 463
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 467
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 464
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 458
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 463
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 487
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 502
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 487
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 460
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 482
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 490
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 467
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 356
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 356
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 410
+        width: 136
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 386
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 362
+        width: 118
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 371
+        width: 64
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 356
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 284
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 262
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 298
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 299
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 324
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 324
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 324
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 300
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 268
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 224
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 229
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 234
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 245
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 268
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 236
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 124
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 238
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 238
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 188
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 188
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 166
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 144
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 174
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 174
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 174
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 108
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 138
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 84
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 66
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 107
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 44
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 87
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 36
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 50
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 10
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 27
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 6
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^02_common^000_effect^000_shadow_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

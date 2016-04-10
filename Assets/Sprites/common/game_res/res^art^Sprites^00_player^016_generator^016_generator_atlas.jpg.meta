@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: ec035cc91362d6e42b4f1734e729183a
+timeCreated: 1460302720
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^00_player^016_generator^016_generator_atlas_0
+    21300002: res^art^Sprites^00_player^016_generator^016_generator_atlas_1
+    21300004: res^art^Sprites^00_player^016_generator^016_generator_atlas_2
+    21300006: res^art^Sprites^00_player^016_generator^016_generator_atlas_3
+    21300008: res^art^Sprites^00_player^016_generator^016_generator_atlas_4
+    21300010: res^art^Sprites^00_player^016_generator^016_generator_atlas_5
+    21300012: res^art^Sprites^00_player^016_generator^016_generator_atlas_6
+    21300014: res^art^Sprites^00_player^016_generator^016_generator_atlas_7
+    21300016: res^art^Sprites^00_player^016_generator^016_generator_atlas_8
+    21300018: res^art^Sprites^00_player^016_generator^016_generator_atlas_9
+    21300020: res^art^Sprites^00_player^016_generator^016_generator_atlas_10
+    21300022: res^art^Sprites^00_player^016_generator^016_generator_atlas_11
+    21300024: res^art^Sprites^00_player^016_generator^016_generator_atlas_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 197
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 228
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 196
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 198
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 135
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 140
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 73
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 89
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^016_generator^016_generator_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

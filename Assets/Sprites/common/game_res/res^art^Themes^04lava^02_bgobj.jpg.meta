@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 860b83550ad1c944daf128f7710fb2b5
+timeCreated: 1460303306
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Themes^04lava^02_bgobj_0
+    21300002: res^art^Themes^04lava^02_bgobj_1
+    21300004: res^art^Themes^04lava^02_bgobj_2
+    21300006: res^art^Themes^04lava^02_bgobj_3
+    21300008: res^art^Themes^04lava^02_bgobj_4
+    21300010: res^art^Themes^04lava^02_bgobj_5
+    21300012: res^art^Themes^04lava^02_bgobj_6
+    21300014: res^art^Themes^04lava^02_bgobj_7
+    21300016: res^art^Themes^04lava^02_bgobj_8
+    21300018: res^art^Themes^04lava^02_bgobj_9
+    21300020: res^art^Themes^04lava^02_bgobj_10
+    21300022: res^art^Themes^04lava^02_bgobj_11
+    21300024: res^art^Themes^04lava^02_bgobj_12
+    21300026: res^art^Themes^04lava^02_bgobj_13
+    21300028: res^art^Themes^04lava^02_bgobj_14
+    21300030: res^art^Themes^04lava^02_bgobj_15
+    21300032: res^art^Themes^04lava^02_bgobj_16
+    21300034: res^art^Themes^04lava^02_bgobj_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Themes^04lava^02_bgobj_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 62
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 199
+        width: 118
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 134
+        width: 198
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 95
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 197
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 109
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 157
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 124
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 101
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 38
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 48
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 50
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 30
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Themes^04lava^02_bgobj_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

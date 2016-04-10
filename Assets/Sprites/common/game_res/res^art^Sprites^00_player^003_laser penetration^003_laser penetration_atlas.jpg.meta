@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: 87c632afefb814147a1ef5b0a094a5cd
+timeCreated: 1460302611
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_0
+    21300002: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_1
+    21300004: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_2
+    21300006: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_3
+    21300008: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_4
+    21300010: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_5
+    21300012: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_6
+    21300014: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_7
+    21300016: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_8
+    21300018: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_9
+    21300020: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_10
+    21300022: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_11
+    21300024: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_12
+    21300026: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_13
+    21300028: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_14
+    21300030: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_15
+    21300032: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_16
+    21300034: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_17
+    21300036: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_18
+    21300038: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_19
+    21300040: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_20
+    21300042: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_21
+    21300044: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_22
+    21300046: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_23
+    21300048: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_24
+    21300050: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_25
+    21300052: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_26
+    21300054: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_27
+    21300056: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_28
+    21300058: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_29
+    21300060: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_30
+    21300062: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_31
+    21300064: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_32
+    21300066: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_33
+    21300068: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_34
+    21300070: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_35
+    21300072: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_36
+    21300074: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_37
+    21300076: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_38
+    21300078: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_39
+    21300080: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_40
+    21300082: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_41
+    21300084: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_42
+    21300086: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_43
+    21300088: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_44
+    21300090: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_45
+    21300092: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_46
+    21300094: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_47
+    21300096: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_48
+    21300098: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_49
+    21300100: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_50
+    21300102: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_51
+    21300104: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_52
+    21300106: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_53
+    21300108: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_54
+    21300110: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_55
+    21300112: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_56
+    21300114: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_57
+    21300116: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_58
+    21300118: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_59
+    21300120: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_60
+    21300122: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_61
+    21300124: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_62
+    21300126: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_63
+    21300128: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_64
+    21300130: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_65
+    21300132: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_66
+    21300134: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_67
+    21300136: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_68
+    21300138: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_69
+    21300140: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_70
+    21300142: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_71
+    21300144: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_72
+    21300146: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_73
+    21300148: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_74
+    21300150: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_75
+    21300152: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_76
+    21300154: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_77
+    21300156: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_78
+    21300158: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_79
+    21300160: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_80
+    21300162: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_81
+    21300164: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_82
+    21300166: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_83
+    21300168: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_84
+    21300170: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_85
+    21300172: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_86
+    21300174: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_87
+    21300176: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_88
+    21300178: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_89
+    21300180: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_90
+    21300182: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_91
+    21300184: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_92
+    21300186: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_93
+    21300188: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_94
+    21300190: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_95
+    21300192: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_96
+    21300194: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_97
+    21300196: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_98
+    21300198: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_99
+    21300200: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_100
+    21300202: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_101
+    21300204: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_102
+    21300206: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_103
+    21300208: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_104
+    21300210: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_105
+    21300212: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_106
+    21300214: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_107
+    21300216: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_108
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 457
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 457
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 457
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 455
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 455
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 456
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 455
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 455
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 457
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 457
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 457
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 457
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 457
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 457
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 399
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 399
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 399
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 397
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 398
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 397
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 398
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 399
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 399
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 399
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 399
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 399
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 399
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 342
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 342
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 341
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 339
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 339
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 339
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 339
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 341
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 342
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 342
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 341
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 341
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 284
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 285
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 284
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 281
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 281
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 281
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 280
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 283
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 284
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 283
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 283
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 282
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 282
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 225
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 227
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 222
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 222
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 222
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 222
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 227
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 227
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 223
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 223
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 166
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 170
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 169
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 163
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 164
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 163
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 163
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 171
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 169
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 164
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 107
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 111
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 106
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 105
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 105
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 106
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 53
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 46
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 47
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 47
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 47
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 47
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: res^art^Sprites^00_player^003_laser penetration^003_laser penetration_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
