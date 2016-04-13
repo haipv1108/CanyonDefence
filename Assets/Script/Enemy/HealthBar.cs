@@ -8,12 +8,12 @@ public class HealthBar : MonoBehaviour {
     private float originalScale;
 
     void Start() {
-        //originalScale = gameObject.transform.localScale.x;
+        originalScale = gameObject.transform.localScale.x;
     }
 
     void Update() {
-        //Vector3 tmpScale = gameObject.transform.localScale;
-        //tmpScale.x = currentHealth / maxHealth * originalScale;
-        //gameObject.transform.localScale = tmpScale;
+        Vector3 tmpScale = gameObject.transform.localScale;
+        tmpScale.x = currentHealth / maxHealth * originalScale;
+        gameObject.transform.localScale = tmpScale;
     }
 }

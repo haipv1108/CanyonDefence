@@ -2,8 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public enum PlayerType{
+
+}
+
 public class PlayerData : MonoBehaviour {
 
+	public PlayerType playerType;
     public List<PlayerLevel> levels;
     private PlayerLevel currentLevel;
 
