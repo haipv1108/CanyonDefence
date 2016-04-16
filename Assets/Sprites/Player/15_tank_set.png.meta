@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 64973f525de713c4398eef71e1adc419
+timeCreated: 1460774721
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 15_tank_set_0
+    21300002: 15_tank_set_1
+    21300004: 15_tank_set_2
+    21300006: 15_tank_set_3
+    21300008: 15_tank_set_4
+    21300010: 15_tank_set_5
+    21300012: 15_tank_set_6
+    21300014: 15_tank_set_7
+    21300016: 15_tank_set_8
+    21300018: 15_tank_set_9
+    21300020: 15_tank_set_10
+    21300022: 15_tank_set_11
+    21300024: 15_tank_set_12
+    21300026: 15_tank_set_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 15_tank_set_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 137
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 137
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 137
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 137
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 137
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 70
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 70
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_8
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 70
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 70
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1
+        width: 135
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15_tank_set_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

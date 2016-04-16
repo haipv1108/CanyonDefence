@@ -21,8 +21,8 @@ public class PlacePlayer : MonoBehaviour {
 	
 	private bool CanUpgradePlayer(){
 		if (player != null) {
-			PlayerData player = player.GetComponent<PlayerData>();
-			PlayerLevel nextLevel = player.getNextLevel();
+			PlayerData currentPlayer = player.GetComponent<PlayerData>();
+			PlayerLevel nextLevel = currentPlayer.getNextLevel();
 			if(nextLevel != null){
 				return GameManager.instance.gold >= nextLevel.cost;
 			}

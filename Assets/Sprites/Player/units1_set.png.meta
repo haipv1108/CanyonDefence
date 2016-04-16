@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: aba5f33a22786ed40806b6c90885f951
+timeCreated: 1460774740
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: units1_set_0
+    21300002: units1_set_1
+    21300004: units1_set_2
+    21300006: units1_set_3
+    21300008: units1_set_4
+    21300010: units1_set_5
+    21300012: units1_set_6
+    21300014: units1_set_7
+    21300016: units1_set_8
+    21300018: units1_set_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: units1_set_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 54
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 54
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 54
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 54
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 54
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: units1_set_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
