@@ -128,11 +128,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerType: 0
   levels:
-  - cost: 300
+  - cost: 250
     visualization: {fileID: 191106}
     bullet: {fileID: 165742, guid: a099d6e712dbbde40bb94be166803843, type: 2}
     fireRate: 1
-  - cost: 350
+  - cost: 300
     visualization: {fileID: 183726}
     bullet: {fileID: 169728, guid: 21025364c6ec0fb4fa4e8395508c26f0, type: 2}
     fireRate: 1
@@ -273,11 +273,11 @@ Prefab:
       objectReference: {fileID: 140564}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].cost
-      value: 300
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].cost
-      value: 350
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].cost
