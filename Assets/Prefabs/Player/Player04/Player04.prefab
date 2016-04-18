@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 433260}
   - 114: {fileID: 11414438}
+  - 58: {fileID: 5849462}
+  - 114: {fileID: 11425022}
   m_Layer: 0
   m_Name: Player04
   m_TagString: Untagged
@@ -115,6 +117,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 433260}
   m_RootOrder: 0
+--- !u!58 &5849462
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108452}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: .400000006
 --- !u!114 &11414438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +155,19 @@ MonoBehaviour:
     visualization: {fileID: 140564}
     bullet: {fileID: 188848, guid: ed6d77a5e03221341b1d16efc91ed2f7, type: 2}
     fireRate: 1
+--- !u!114 &11425022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26538378d3e5c1e4b9cad10a9ba35455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesInRange: []
+  target: {fileID: 0}
 --- !u!212 &21245508
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -282,6 +310,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].cost
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Radius
+      value: .400000006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
