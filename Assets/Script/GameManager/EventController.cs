@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EventController : MonoBehaviour {
 
+	public Enemy enemy;
 	// Use this for initialization
 	void Start () {
 	
@@ -20,6 +21,9 @@ public class EventController : MonoBehaviour {
 						Debug.Log ("KIMOCHI");
 						hit.collider.gameObject.transform.GetChild(2).GetComponent<HealthBar>().Damage(5);
 					}
+				} else {
+					Debug.Log ("WTF");
+					enemy.Move(Camera.main.ScreenToWorldPoint(Input.mousePosition));
 				}
 			}
 		}
