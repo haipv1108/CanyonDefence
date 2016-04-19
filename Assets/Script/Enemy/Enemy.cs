@@ -25,11 +25,6 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0)) {
-			Vector3 destination = Input.mousePosition;
-			Debug.Log ("Destination:" + Camera.main.ScreenToWorldPoint(destination));
-			Move (Camera.main.ScreenToWorldPoint(destination));
-		}
 		if (isMoving) {
 			if (MoveComplete()) {
 				isMoving = false;
