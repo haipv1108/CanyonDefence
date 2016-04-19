@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\xF3"
+  m_Text: Yes
 --- !u!222 &321710816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kh\xF4ng"
+  m_Text: No
 --- !u!222 &831655173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .911764681, g: .911764681, b: .911764681, a: 1}
+  m_Color: {r: .623529434, g: .733333349, b: .674509823, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2517,7 +2517,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\xF4ng ?"
+  m_Text: You want to back menu game?
 --- !u!222 &1821595683
 CanvasRenderer:
   m_ObjectHideFlags: 0
