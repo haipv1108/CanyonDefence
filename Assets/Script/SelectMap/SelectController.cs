@@ -62,12 +62,11 @@ public class SelectController : MonoBehaviour {
 
 		// Loading Scen
 		// Vao Gameplay
-//		Application.LoadLevel ("Gameplay");
-		print ("Load vao Scene Gameplay");
+		Application.LoadLevel (Strings.SCEN_GAMEPLAY);
 	}
 
 	public void BackMainMenu() {
-		Application.LoadLevel ("MainMenu");
+		Application.LoadLevel (Strings.SCEN_MENU);
 	}
 
 	public void BackSelectMap() {

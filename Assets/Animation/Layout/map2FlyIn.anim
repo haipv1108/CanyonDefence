@@ -25,13 +25,13 @@ AnimationClip:
         tangentMode: 10
       - time: .333333343
         value: -90
-        inSlope: -927
-        outSlope: -927
+        inSlope: -869
+        outSlope: -869
         tangentMode: 10
       - time: .583333313
-        value: -72
-        inSlope: 72.0000076
-        outSlope: 72.0000076
+        value: -43
+        inSlope: 188.000015
+        outSlope: 188.000015
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -82,13 +82,13 @@ AnimationClip:
         tangentMode: 10
       - time: .333333343
         value: -90
-        inSlope: -927
-        outSlope: -927
+        inSlope: -869
+        outSlope: -869
         tangentMode: 10
       - time: .583333313
-        value: -72
-        inSlope: 72.0000076
-        outSlope: 72.0000076
+        value: -43
+        inSlope: 188.000015
+        outSlope: 188.000015
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2

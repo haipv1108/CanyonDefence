@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: map1FlyOut
+  m_Name: HelpFlyIn
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,28 +19,28 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 224
-        inSlope: 354.666656
-        outSlope: 354.666656
-        tangentMode: 10
-      - time: .214285716
-        value: 300
-        inSlope: -715.166748
-        outSlope: -715.166748
+        value: 609
+        inSlope: -1418
+        outSlope: -1418
         tangentMode: 10
       - time: .5
-        value: -210
-        inSlope: -1785.00012
-        outSlope: -1785.00012
+        value: -100
+        inSlope: -589
+        outSlope: -589
+        tangentMode: 10
+      - time: .666666687
+        value: -60
+        inSlope: 239.999969
+        outSlope: 239.999969
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
-    attribute: m_AnchoredPosition.x
+    attribute: m_AnchoredPosition.y
     path: 
     classID: 224
     script: {fileID: 0}
   m_PPtrCurves: []
-  m_SampleRate: 70
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -48,7 +48,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - path: 0
-      attribute: 1460864421
+      attribute: 538195251
       script: {fileID: 0}
       classID: 224
       customType: 0
@@ -57,7 +57,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .5
+    m_StopTime: .666666687
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -76,23 +76,23 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 224
-        inSlope: 354.666656
-        outSlope: 354.666656
-        tangentMode: 10
-      - time: .214285716
-        value: 300
-        inSlope: -715.166748
-        outSlope: -715.166748
+        value: 609
+        inSlope: -1418
+        outSlope: -1418
         tangentMode: 10
       - time: .5
-        value: -210
-        inSlope: -1785.00012
-        outSlope: -1785.00012
+        value: -100
+        inSlope: -589
+        outSlope: -589
+        tangentMode: 10
+      - time: .666666687
+        value: -60
+        inSlope: 239.999969
+        outSlope: 239.999969
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
-    attribute: m_AnchoredPosition.x
+    attribute: m_AnchoredPosition.y
     path: 
     classID: 224
     script: {fileID: 0}
