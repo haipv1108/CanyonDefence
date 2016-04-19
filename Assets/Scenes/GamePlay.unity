@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\xF3"
+  m_Text: Yes
 --- !u!222 &321710816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kh\xF4ng"
+  m_Text: No
 --- !u!222 &831655173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1010,7 +1010,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 904469847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1524688787}
+        m_MethodName: QuitGamePlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &904469847
@@ -1221,11 +1232,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1004127837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 564ac446c3cee2742b7d62a36eae73d9, type: 3}
+  m_Script: {fileID: 11500000, guid: b6e9811835f1c23479d5a480ebc08e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectDifficulty: {fileID: 0}
-  selectController: {fileID: 0}
+  exitPopup: {fileID: 1524688787}
 --- !u!1 &1102304659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,7 +1292,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1102304661}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1524688787}
+        m_MethodName: Close
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1102304661
@@ -1639,7 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .911764681, g: .911764681, b: .911764681, a: 1}
+  m_Color: {r: .623529434, g: .733333349, b: .674509823, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2103,6 +2124,7 @@ GameObject:
   - 224: {fileID: 1524688784}
   - 222: {fileID: 1524688786}
   - 114: {fileID: 1524688785}
+  - 114: {fileID: 1524688787}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -2161,6 +2183,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524688783}
+--- !u!114 &1524688787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1524688783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97479c47909fd9447b85be2b0db3d975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1528655929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2484,7 +2517,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t kh\xF4ng ?"
+  m_Text: You want to back menu game?
 --- !u!222 &1821595683
 CanvasRenderer:
   m_ObjectHideFlags: 0

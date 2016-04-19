@@ -943,7 +943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .125, g: 1, b: .420689762, a: 1}
+  m_Color: {r: .858823538, g: .80392158, b: .482352942, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3474,7 +3474,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "B\u1EA1n c\xF3 mu\u1ED1n tho\xE1t hay kh\xF4ng ?"
+  m_Text: You want to exit game?
 --- !u!222 &1730128296
 CanvasRenderer:
   m_ObjectHideFlags: 0
