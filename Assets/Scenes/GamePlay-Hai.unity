@@ -970,6 +970,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 564ac446c3cee2742b7d62a36eae73d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectDifficulty: {fileID: 0}
+  selectController: {fileID: 0}
 --- !u!1 &1188022823
 GameObject:
   m_ObjectHideFlags: 0

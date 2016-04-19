@@ -14,31 +14,25 @@ MonoBehaviour:
   playerInfos:
   - gold: 100
     sprite: {fileID: 21300000, guid: 64973f525de713c4398eef71e1adc419, type: 3}
-    description: "Lo\u1EA1i xe t\u0103ng c\xF3 th\u1EC3 c\xF4ng k\xEDch b\u1EA5t c\u1EE9
-      lo\u1EA1i tr\xE2u b\xF2 n\xE0o"
+    description: "Xe t\u0103ng c\xF4ng k\xEDch tr\xE2u b\xF2."
     playerType: 0
   - gold: 120
     sprite: {fileID: 21300008, guid: 64973f525de713c4398eef71e1adc419, type: 3}
-    description: "Xe t\u0103ng c\u1EA5p 2, c\xF4ng k\xEDch b\u1EA5t c\u1EE9 con tr\xE2u
-      m\u1ED9ng n\xE0o."
+    description: "Xe t\u0103ng c\u1EA5p 2, c\xF4ng k\xEDch tr\xE2u m\u1ED9ng."
     playerType: 1
   - gold: 200
     sprite: {fileID: 21300002, guid: f7cc55871b99f2d408b2a86b453deaac, type: 3}
-    description: "V\u1EC7 tinh ph\xF2ng v\u1EC7. Th\u1EE7 ti\xEAu b\u1EA5t c\u1EE9
-      con tr\xE2u n\xE0o."
+    description: "V\u1EC7 tinh ph\xF2ng v\u1EC7 gi\u1EBFt g\xE0 v\u1ECBt."
     playerType: 2
   - gold: 200
     sprite: {fileID: 21300012, guid: 64973f525de713c4398eef71e1adc419, type: 3}
-    description: "H\u1EA1t nh\xE2n ph\xF3ng \u0111\u1EA1n h\u1EA1t nh\xE2n. Ti\xEAu
-      di\u1EC7t qu\xE1i v\u1EADt gi\u1EBFt ng\u01B0\u1EDDi."
+    description: "H\u1EA1t nh\xE2n ti\xEAu di\u1EC7t tr\xE1i \u0111\u1EA5t."
     playerType: 3
   - gold: 250
     sprite: {fileID: 21300006, guid: aba5f33a22786ed40806b6c90885f951, type: 3}
-    description: "Xe t\u0103ng th\u1EDDi t\u1ED1i c\u1ED5. Kh\u1EA3 n\u0103ng c\xF4ng
-      k\xEDch c\u1EF1c k\xEC tr\xE2u b\xF2."
+    description: "Xe t\u0103ng th\u1EDDi t\u1ED1i c\u1ED5 gi\u1EBFt ngan g\xE0."
     playerType: 4
   - gold: 300
     sprite: {fileID: 21300020, guid: ef0d02d55764c6347b0339f06eaa76a9, type: 3}
-    description: "Kh\xF4ng bi\u1EBFt g\u1ECDi l\xE0 v\u0169 kh\xED g\xEC. Nh\u01B0ng
-      n\xF3i ch\xFAng, n\xF3 r\u1EA5t tr\xE2u."
+    description: "V\u0169 kh\xED tr\xE2u b\xF2 kh\xF4ng c\xF3 t\xEAn."
     playerType: 5
