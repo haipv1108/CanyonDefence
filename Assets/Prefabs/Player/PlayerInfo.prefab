@@ -388,7 +388,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 39, y: 16.8999996}
-  m_SizeDelta: {x: 18.1000004, y: 15.1999998}
+  m_SizeDelta: {x: 18.1000004, y: 19.2000008}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22407390
 RectTransform:
@@ -493,6 +493,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 19.2000008
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
