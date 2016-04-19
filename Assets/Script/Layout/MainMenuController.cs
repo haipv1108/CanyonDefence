@@ -4,6 +4,7 @@ using System.Collections;
 public class MainMenuController : MonoBehaviour {
 
 	public GameObject BgIn;
+	public GameObject HelpCanvas;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +22,8 @@ public class MainMenuController : MonoBehaviour {
 	}
 
 	public void HelpBtn() {
-		print ("Click Help Btn");
+//		print ("Click Help Btn");
+		HelpCanvas.SetActive (true);
 	}
 
 	public void ScoreBtn() {
