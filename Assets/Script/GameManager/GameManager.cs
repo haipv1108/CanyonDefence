@@ -38,4 +38,8 @@ public class GameManager : MonoBehaviour {
     void Awake(){
 		instance = this;
 	}
+
+    void Start() {
+        Gold = 1000;
+    }
 }

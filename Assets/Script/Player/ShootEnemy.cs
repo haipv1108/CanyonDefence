@@ -8,6 +8,7 @@ public class ShootEnemy : MonoBehaviour {
 
     private float lastShotTime;
     private PlayerData playerData;
+    public GameObject target;
 
     void Start() {
         lastShotTime = Time.time;
@@ -15,7 +16,7 @@ public class ShootEnemy : MonoBehaviour {
     }
 
     void Update() {
-        GameObject target = null;
+        //GameObject target = null;
 
         //TODO: set target object cho bullet o day.
         float minimalEnemyDistance = float.MaxValue;

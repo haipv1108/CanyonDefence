@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 
 public enum PlayerType{
+    TYPE0,
     TYPE1,
     TYPE2,
     TYPE3,
     TYPE4,
-    TYPE5,
-    TYPE6
+    TYPE5
 }
 
 public class PlayerData : MonoBehaviour {

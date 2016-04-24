@@ -11,7 +11,7 @@ GameObject:
   - 114: {fileID: 11414438}
   - 58: {fileID: 5849462}
   - 114: {fileID: 11425022}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 417426}
   - 212: {fileID: 21245508}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 450886}
   - 212: {fileID: 21292084}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 480050}
   - 212: {fileID: 21270104}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesInRange: []
-  target: {fileID: 0}
 --- !u!212 &21245508
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -318,6 +317,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Radius
       value: .400000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

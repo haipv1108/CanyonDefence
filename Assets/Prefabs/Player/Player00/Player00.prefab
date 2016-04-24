@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 482560}
   - 212: {fileID: 21201584}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 476560}
   - 212: {fileID: 21253518}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 402152}
   - 212: {fileID: 21264612}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - 114: {fileID: 11416706}
   - 58: {fileID: 5812330}
   - 114: {fileID: 11483716}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesInRange: []
-  target: {fileID: 0}
 --- !u!212 &21201584
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -310,6 +309,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].fireRate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
