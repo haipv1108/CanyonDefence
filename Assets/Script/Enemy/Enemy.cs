@@ -17,10 +17,10 @@ public class Enemy : MonoBehaviour {
 	Vector3 direction, destination;
 
 	MoveDirection moveDirection;
-
+	
 	// Use this for initialization
 	void Start () {
-	
+		direction = new Vector3 (1, 0, 0);
 	}
 	
 	// Update is called once per frame
@@ -73,10 +73,27 @@ public class Enemy : MonoBehaviour {
 			return;
 		this.destination = destination;
 		isMoving = true;
+		Vector3 preDirection = direction;
 		direction = (destination - transform.position).normalized;
 		direction.z = 0;
 		Debug.Log ("Vector direction:" + direction);
 		moveDirection = CalculateMoveDirection ();
+
+		CalculateRotation (preDirection);
+	}
+
+	void CalculateRotation(Vector3 preDirection) {
+		Vector3 rotation = transform.localRotation.eulerAngles;
+		Debug.Log ("Angle: " + Vector2.Angle(preDirection,direction));
+		Vector3 cross = Vector3.Cross(preDirection, direction);
+		
+		//rotation.z += Vector2.Angle(preDirection,direction);
+		if (cross.z > 0) {
+			rotation.z += Vector2.Angle(preDirection,direction);
+		} else {
+			rotation.z -= Vector2.Angle(preDirection,direction);
+		}
+		transform.GetChild (0).transform.Rotate (rotation);
 	}
 
 	MoveDirection CalculateMoveDirection() {
@@ -93,7 +110,6 @@ public class Enemy : MonoBehaviour {
 			moveDirection = MoveDirection.BOTTOM_RIGHT;
 		} else 
 			moveDirection = MoveDirection.TOP_RIGHT;
-		Debug.Log ("Move direction: " + moveDirection);
 
 		return moveDirection;
 	}

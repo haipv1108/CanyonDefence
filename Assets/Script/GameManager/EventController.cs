@@ -22,7 +22,6 @@ public class EventController : MonoBehaviour {
 						hit.collider.gameObject.transform.GetChild(2).GetComponent<HealthBar>().Damage(5);
 					}
 				} else {
-					Debug.Log ("WTF");
 					enemy.Move(Camera.main.ScreenToWorldPoint(Input.mousePosition));
 				}
 			}
