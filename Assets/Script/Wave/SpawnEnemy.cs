@@ -12,13 +12,20 @@ public class SpawnEnemy : MonoBehaviour {
 
 	private GameManager gameManager;
 
+	public GameObject[] waypoints;
+
+	public GameObject testEnemyPrefab;
+
+
 	void Start(){
 		lastSpawnTime = Time.time;
 		gameManager = GameManager.instance;
+	//	Instantiate(testEnemyPrefab).GetComponent<Enemy>().waypoints = waypoints;
+//Instantiate (testEnemyPrefab).GetComponent<Enemy> ().MoveByWayPoints ();
 	}
 
 	void  Update() {
-		/*
+
 		int currentWave = gameManager.Wave;
 		if (currentWave < waves.Length) {
 			// 2
@@ -32,14 +39,15 @@ public class SpawnEnemy : MonoBehaviour {
 				lastSpawnTime = Time.time;
 				GameObject newEnemy = (GameObject)
 					Instantiate(waves[currentWave].enemyPrefab);
-				newEnemy.GetComponent<MoveEnemy>().waypoints = waypoints;
+				newEnemy.GetComponent<Enemy>().waypoints = waypoints;
+				newEnemy.GetComponent<Enemy>().SetEnemyState(EnemyState.START_RUN);
 				enemiesSpawned++;
 			}
 			// 4 
 			if (enemiesSpawned == waves[currentWave].maxEnemies &&
 			    GameObject.FindGameObjectWithTag("Enemy") == null) {
 				gameManager.Wave++;
-				gameManager.Gold = Mathf.RoundToInt(gameManager.Gold * 1.1f);
+				//gameManager.Gold = Mathf.RoundToInt(gameManager.Gold * 1.1f);
 				enemiesSpawned = 0;
 				lastSpawnTime = Time.time;
 			}
@@ -49,6 +57,6 @@ public class SpawnEnemy : MonoBehaviour {
 			//GameObject gameOverText = GameObject.FindGameObjectWithTag ("GameWon");
 			//gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
 		}
-		*/
+
 	}
 }
