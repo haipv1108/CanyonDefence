@@ -7,6 +7,7 @@ public class HealthBar : MonoBehaviour {
     public float currentHealth = 100;
     private float originalScale;
 	private Vector3 originPosition;
+		
 
 	float mfX, mfY;
 
@@ -28,11 +29,14 @@ public class HealthBar : MonoBehaviour {
     }
 
 	public void Damage(float damage){
+		Debug.Log ("Damage");
 		if (currentHealth == 0)
 			return;
 		currentHealth -= damage;
-		if (currentHealth < 0)
+		if (currentHealth <= 0) {
 			currentHealth = 0;
+			transform.parent.GetComponent<Enemy>().SetEnemyState(EnemyState.DESTROY);
+		}
 
 		Vector3 localScale = transform.localScale;
 

@@ -26,8 +26,9 @@ public class BulletController : MonoBehaviour {
             if (target != null) {
                 Transform healthBarTransform = target.transform.FindChild("HealthBar");
                 HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
-                healthBar.currentHealth -= Mathf.Max(damage, 0);
+                healthBar.Damage(Mathf.Max(damage*2, 0));
 
+				/*
                 if (healthBar.currentHealth <= 0) {
                     Destroy(target);
                     //TODO: Them hieu ung chet
@@ -36,6 +37,7 @@ public class BulletController : MonoBehaviour {
                     //TODO: Update gold
                     GameManager.instance.Gold += 50;
                 }
+                */
             }
             Destroy(gameObject);
         }
