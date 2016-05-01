@@ -35,7 +35,12 @@ public class HealthBar : MonoBehaviour {
 		currentHealth -= damage;
 		if (currentHealth <= 0) {
 			currentHealth = 0;
-			transform.parent.GetComponent<Enemy>().SetEnemyState(EnemyState.DESTROY);
+			Enemy enemy = transform.parent.GetComponent<Enemy>();
+			enemy.actionAfterDestroy += () => {
+
+				Debug.Log ("Cong them vang");
+			};
+			enemy.SetEnemyState(EnemyState.DESTROY);
 		}
 
 		Vector3 localScale = transform.localScale;

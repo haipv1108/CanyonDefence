@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public enum MoveDirection {
 	TOP_LEFT,
@@ -40,8 +41,11 @@ public class Enemy : MonoBehaviour {
 	[HideInInspector]
 	public System.Action actionAfterDestroy;
 
+	public List<EnemyObserver> observers;
 
-
+	void Awake() {
+		observers = new List<EnemyObserver>();
+	}
 	// Use this for initialization
 	void Start () {
 
@@ -66,9 +70,8 @@ public class Enemy : MonoBehaviour {
 					currentWaypoint++;
 					lastWaypointSwitchTime = Time.time;
 					CalculateRotation(startPosition, endPosition);
-					// TODO: Rotate into move direction
 				} else {
-					// 3.b 
+					GameManager.instance.DecreeHealth();
 					SetEnemyState(EnemyState.DESTROY);
 				}
 			}
@@ -84,6 +87,9 @@ public class Enemy : MonoBehaviour {
 
 			if (actionAfterDestroy != null)
 				actionAfterDestroy();
+			foreach(EnemyObserver observer in observers) {
+				observer.Notify(this);
+			}
 			Destroy(gameObject);
 			break;
 		case EnemyState.START_RUN:
