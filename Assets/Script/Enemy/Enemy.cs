@@ -33,15 +33,20 @@ public class Enemy : MonoBehaviour {
 
 	public float speed = 1.0f;
 
+	private HealthBar healthBar;
 
 	EnemyState enemyState;
+
+	[HideInInspector]
+	public System.Action actionAfterDestroy;
+
 
 
 	// Use this for initialization
 	void Start () {
 
 		lastWaypointSwitchTime = Time.time;
-
+		healthBar = transform.GetChild (2).GetComponent<HealthBar> ();
 	}
 	
 	// Update is called once per frame
@@ -76,7 +81,9 @@ public class Enemy : MonoBehaviour {
 		switch (state) {
 		case EnemyState.DESTROY:
 			Debug.Log ("Destroy game object");
-			GameManager.instance.DecreeHealth();
+
+			if (actionAfterDestroy != null)
+				actionAfterDestroy();
 			Destroy(gameObject);
 			break;
 		case EnemyState.START_RUN:
@@ -106,4 +113,5 @@ public class Enemy : MonoBehaviour {
 			Quaternion.AngleAxis(rotationAngle, Vector3.forward);
 
 	}
+	
 }

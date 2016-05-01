@@ -167,6 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesInRange: []
+  target: {fileID: 0}
+  range: 0
+  defaultRotation: 90
 --- !u!212 &21201452
 SpriteRenderer:
   m_ObjectHideFlags: 1

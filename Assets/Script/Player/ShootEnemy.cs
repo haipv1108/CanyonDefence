@@ -12,9 +12,14 @@ public class ShootEnemy : MonoBehaviour {
 
 	public float range;
 
+	private Vector2 preDirection ;
+
+	public float defaultRotation = 90;
+
     void Start() {
         lastShotTime = Time.time;
         playerData = gameObject.GetComponentInChildren<PlayerData>();
+		preDirection = new Vector2 (0, 1);
     }
 
     void Update() {
@@ -23,17 +28,23 @@ public class ShootEnemy : MonoBehaviour {
         //TODO: set target object cho bullet o day.
         float minimalEnemyDistance = float.MaxValue;
         //foreach (GameObject enemy in enemiesInRange) { }
-
+		if (enemiesInRange.Count > 0) {
+			target = enemiesInRange[0];
+		}
         if (target != null) {
             if (Time.time - lastShotTime > playerData.CurrentLevel.fireRate) {
                 Shoot(target.GetComponent<Collider2D>());
                 lastShotTime = Time.time;
             }
             //Xoay player
+			/*
             Vector3 direction = gameObject.transform.position - target.transform.position;
             gameObject.transform.rotation = Quaternion.AngleAxis(
                 Mathf.Atan2(direction.y, direction.x) * 180 / Mathf.PI,
                 new Vector3(0, 0, 1));
+                */
+			Vector2 desDirection = gameObject.transform.position - target.transform.position;
+			CalculateRotation();
         }
     }
 
@@ -55,24 +66,30 @@ public class ShootEnemy : MonoBehaviour {
         //Animator & audio shot
     }
 
-    void OnEnemyDestroy(GameObject enemy)
-    {
-        enemiesInRange.Remove(enemy);
-
-    }
-
 	public  float Distance(Vector2 v) {
 		return Vector2.Distance (transform.position, v);
 	}
 
-    /*void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag.Equals("Enemy"))
-        {
-            enemiesInRange.Add(other.gameObject);
-            EnemyDestructionDelegate del =
-                other.gameObject.GetComponent<EnemyDestructionDelegate>();
-            del.enemyDelegate += OnEnemyDestroy;
-        }
-    }*/
+	public void AddEnemyInRange(GameObject enemy) {
+		if (!enemiesInRange.Contains (enemy) && enemy != null) {
+			enemiesInRange.Add(enemy);
+		}
+	}
+
+	public void DeleteEnemyInRange(GameObject enemy) {
+		if (enemiesInRange.Contains (enemy)) {
+			enemiesInRange.Remove(enemy);
+		}
+	}
+
+
+	void CalculateRotation() {
+		Vector3 direction = target.transform.position-gameObject.transform.position;
+		gameObject.transform.rotation = Quaternion.AngleAxis(
+			Mathf.Atan2 (direction.y, direction.x) * 180 / Mathf.PI - 90,
+			new Vector3 (0, 0, 1));
+
+	}
+
+  
 }
