@@ -10,6 +10,9 @@ public class SoundManager : MonoBehaviour {
 	public BGMEntry[] bgms;
 	public SFXEntry[] sfxs;
 
+	private bool isChangeBGMVolume;
+	private bool isChangeSFXVolume;
+
 	private AudioSource secondarySFX;
 
 	private AudioSource sfxSource{
@@ -23,6 +26,8 @@ public class SoundManager : MonoBehaviour {
 
 	void Awake(){
 		instance = this;
+		isChangeBGMVolume = false;
+		isChangeSFXVolume = false;
 	}
 
 	public void PlayBGM(BGM bgmName){
@@ -30,8 +35,20 @@ public class SoundManager : MonoBehaviour {
 			foreach(BGMEntry entry in bgms){
 				if(entry.name == bgmName){
 					bgm.clip = entry.music;
+					bgm.volume = Attributes.getBGMVolume();
 					bgm.Play();
 					return;
+				}
+			}
+		}
+	}
+
+	public void PauseBGM(BGM bgmName){
+		if (Attributes.isSoundBGOn ()) {
+			foreach(BGMEntry entry in bgms){
+				if(entry.name == bgmName){
+					bgm.clip = entry.music;
+					bgm.Pause();
 				}
 			}
 		}
@@ -42,6 +59,7 @@ public class SoundManager : MonoBehaviour {
 			foreach(SFXEntry entry in sfxs){
 				if(entry.name == sfxName){
 					sfx.clip = entry.sound;
+					sfx.volume = Attributes.getSFXVolume();
 					sfx.Play();
 					return;
 				}
@@ -49,18 +67,49 @@ public class SoundManager : MonoBehaviour {
 		}
 	}
 
+	public void PauseSFX(SFX sfxName){
+		if (Attributes.isSoundSFXOn ()) {
+			foreach(SFXEntry entry in sfxs){
+				if(entry.name == sfxName){
+					sfx.clip = entry.sound;
+					sfx.Pause();
+				}
+			}
+		}
+	}
+
+	void Update(){
+		if (isChangeBGMVolume) {
+			bgm.volume = Attributes.getBGMVolume ();
+			isChangeBGMVolume = false;
+		}
+		if (isChangeSFXVolume) {
+			sfx.volume = Attributes.getSFXVolume ();
+			isChangeSFXVolume = false;
+		}
+	}
+
+	public void ChangeBGMVolume(){
+		isChangeBGMVolume = true;
+	}
+
+	public void ChangeSFXVolume(){
+		isChangeSFXVolume = true;
+	}
 }
 
 public enum BGM{
 	MENU,
 	SELECT_MAP,
-	SELECT_DIFFICULTY,
 	GAMEPLAY
 }
 
 public enum SFX{
 	OPEN_DIALOG,
-	CLICK_BUTTON
+	CLICK_BUTTON,
+	PLAYER_PLACE,
+	SELL_PLAYER,
+	VICTORY
 }
 
 [System.Serializable]

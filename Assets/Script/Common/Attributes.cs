@@ -9,6 +9,8 @@ public class Attributes {
 	public static int sound_bg = PlayerPrefs.GetInt (Strings.SOUND_BG, IS_ON);
 	public static int sound_sfx = PlayerPrefs.GetInt(Strings.SOUND_SFX, IS_ON);
 	public static int vibration = PlayerPrefs.GetInt(Strings.VIBRATION, IS_ON);
+	public static float bgm_volume = PlayerPrefs.GetFloat(Strings.BGM_VOLUME, 0.5f);
+	public static float sfx_volume = PlayerPrefs.GetFloat(Strings.SFX_VOLUME, 0.5f);
 
 	public static int IS_ON = 1;
 	public static int IS_OFF = 0;
@@ -52,4 +54,33 @@ public class Attributes {
 		vibration = vib;
 		PlayerPrefs.SetInt (Strings.VIBRATION, vibration);
 	}
+
+	// Get BGM Level volume
+	public static float getBGMVolume(){
+		return bgm_volume;
+	}
+
+	// Set BGM Level volume
+	public static void setBGMVolume(float volume){
+		bgm_volume = volume;
+		if (SoundManager.instance != null) {
+			SoundManager.instance.ChangeBGMVolume();
+		}
+		PlayerPrefs.SetFloat (Strings.BGM_VOLUME, bgm_volume);
+	}
+
+	// Get SFX Level volume
+	public static float getSFXVolume(){
+		return sfx_volume;
+	}
+
+	// Set SFX Level volume
+	public static void setSFXVolume(float volume){
+		sfx_volume = volume;
+		if (SoundManager.instance != null) {
+			SoundManager.instance.ChangeSFXVolume();
+		}
+		PlayerPrefs.SetFloat (Strings.SFX_VOLUME, sfx_volume);
+	}
+
 }
