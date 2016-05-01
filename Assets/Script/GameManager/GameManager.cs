@@ -41,5 +41,5 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         Gold = 1000;
-    }
+    }	
 }
