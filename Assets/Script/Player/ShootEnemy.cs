@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class ShootEnemy : MonoBehaviour {
+public class ShootEnemy : MonoBehaviour, EnemyObserver {
 
     public List<GameObject> enemiesInRange;
 
@@ -30,13 +30,11 @@ public class ShootEnemy : MonoBehaviour {
         //foreach (GameObject enemy in enemiesInRange) { }
 		if (enemiesInRange.Count > 0) {
 			target = enemiesInRange[0];
-		}
-        if (target != null) {
-            if (Time.time - lastShotTime > playerData.CurrentLevel.fireRate) {
-                Shoot(target.GetComponent<Collider2D>());
-                lastShotTime = Time.time;
-            }
-            //Xoay player
+			if (Time.time - lastShotTime > playerData.CurrentLevel.fireRate) {
+				Shoot(target.GetComponent<Collider2D>());
+				lastShotTime = Time.time;
+			}
+			//Xoay player
 			/*
             Vector3 direction = gameObject.transform.position - target.transform.position;
             gameObject.transform.rotation = Quaternion.AngleAxis(
@@ -45,7 +43,8 @@ public class ShootEnemy : MonoBehaviour {
                 */
 			Vector2 desDirection = gameObject.transform.position - target.transform.position;
 			CalculateRotation();
-        }
+		}
+ 
     }
 
     void Shoot(Collider2D target) {
@@ -82,6 +81,9 @@ public class ShootEnemy : MonoBehaviour {
 		}
 	}
 
+	public void Notify(Enemy enemy) {
+		DeleteEnemyInRange (enemy.gameObject);
+	}
 
 	void CalculateRotation() {
 		Vector3 direction = target.transform.position-gameObject.transform.position;
