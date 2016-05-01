@@ -32,6 +32,11 @@ public class SelectController : MonoBehaviour {
 		dif1Anim = dif1.GetComponent<Animator> ();
 		dif2Anim = dif2.GetComponent<Animator> ();
 		dif3Anim = dif3.GetComponent<Animator> ();
+
+		//Sound
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlayBGM(BGM.SELECT_MAP);
+		}
 	}
 	
 	// Update is called once per frame
@@ -42,18 +47,27 @@ public class SelectController : MonoBehaviour {
 	/* ------------ Click Button ------------*/
 	// Chon Map
 	public void SelectMap(int id) {
+		//Sound
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+		}
+
 		if (id >= 1 && id <= 3)
 			Attributes.mapID = id;
 		else
 			Attributes.mapID = 1;
 
 		SetTriggerSelectMap ();
-
-//		print ("map: " + Attributes.mapID);
+	
 	}
 
 	// Chon Difficulty
 	public void SelectDifficulty(int dif) {
+		//Sound
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+		}
+
 		if (dif > 0 && dif < 4)
 			Attributes.difficulty = dif;
 		else

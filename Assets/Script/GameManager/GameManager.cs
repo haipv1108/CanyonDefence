@@ -47,6 +47,9 @@ public class GameManager : MonoBehaviour {
     void Start() {
         Gold = 1000;
 		lives = 10;	
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
+		}
     }
 
 	public void DecreeHealth() {
