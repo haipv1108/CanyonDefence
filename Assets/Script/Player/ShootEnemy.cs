@@ -10,6 +10,8 @@ public class ShootEnemy : MonoBehaviour {
     private PlayerData playerData;
     public GameObject target;
 
+	public float range;
+
     void Start() {
         lastShotTime = Time.time;
         playerData = gameObject.GetComponentInChildren<PlayerData>();
@@ -56,7 +58,12 @@ public class ShootEnemy : MonoBehaviour {
     void OnEnemyDestroy(GameObject enemy)
     {
         enemiesInRange.Remove(enemy);
+
     }
+
+	public  float Distance(Vector2 v) {
+		return Vector2.Distance (transform.position, v);
+	}
 
     /*void OnTriggerEnter2D(Collider2D other)
     {

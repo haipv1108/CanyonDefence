@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour {
     }
 
     public Text waveText;
+
+	public Text livesText;
+
+	public int lives;
+
     public GameObject[] nextWaveLabels;
 
     public bool gameOver = false;
@@ -31,7 +36,7 @@ public class GameManager : MonoBehaviour {
                     nextWaveLabels[i].GetComponent<Animator>().SetTrigger("nextWave");
                 }
             }
-            waveText.text = (wave + 1).ToString();
+//            waveText.text = (wave + 1).ToString();
         }
     }
 
@@ -41,5 +46,18 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         Gold = 1000;
-    }	
+		lives = 10;	
+    }
+
+	public void DecreeHealth() {
+		if (lives > 0) {
+			--lives;
+			livesText.text = lives + "";
+			if (lives == 0) {
+				Debug.Log ("Game Over: Lose");
+			}
+		}
+
+
+	}
 }
