@@ -9,6 +9,7 @@ public class PlacePlayer : MonoBehaviour {
     public UpgradePopupControl upgradeGameObject;
     private GameObject player;
 
+	public static GameObject currentGameObject;
 	public static GameObject gameObjectActive;
 	public static UpgradePopupControl upgradeGameObjectActive;
 
@@ -24,7 +25,11 @@ public class PlacePlayer : MonoBehaviour {
     void OnMouseUp() {
         //
 		Debug.Log ("ONMOUSE UP");
+		if (currentGameObject != gameObject) {
+			CloseAllPopup();
+		}
 		if (!isActivePopup) {
+			currentGameObject = gameObject;
 			if (player == null)
 			{
 				listPlayer.SetActive(true);
