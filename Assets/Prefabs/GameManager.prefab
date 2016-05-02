@@ -47,6 +47,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &189308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 492822}
+  - 114: {fileID: 11408892}
+  m_Layer: 0
+  m_Name: ShakeCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &192404
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +105,7 @@ Transform:
   - {fileID: 484288}
   - {fileID: 445350}
   - {fileID: 466374}
+  - {fileID: 492822}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &466374
@@ -115,6 +132,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 461738}
   m_RootOrder: 0
+--- !u!4 &492822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 461738}
+  m_RootOrder: 3
+--- !u!114 &11408892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acf39bf3cffc8d4482e1b80efccc844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  shakePosition: 1
+  shakeRotation: 0
+  shakeIntensity: .5
+  shakeDecay: .0199999996
 --- !u!114 &11417178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e024ccca7c86674aade77976cc5f456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shakeCamera: {fileID: 11408892}
   goldText: {fileID: 0}
   gold: 0
   waveText: {fileID: 0}

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 
 	public static GameManager instance;
+	public ShakeCamera shakeCamera;
 
     public Text goldText;
     public int gold;
@@ -56,6 +57,12 @@ public class GameManager : MonoBehaviour {
 		if (lives > 0) {
 			--lives;
 			livesText.text = lives + "";
+			//Rung man hinh
+			shakeCamera.DoShake();
+			//Rung dien thoai
+			if (Attributes.isVibrationOn ()) {
+				Handheld.Vibrate();
+			}
 			if (lives == 0) {
 				Debug.Log ("Game Over: Lose");
 			}
