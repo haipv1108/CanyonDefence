@@ -11,8 +11,6 @@ public class PlayerPosition : MonoBehaviour {
     private int cost;
 
     void Start() {
-        Debug.Log("Khoi dong");
-        //TODO: Cap nhat hinh anh cho cac playerImage
         LoadSpritePlayer();
     }
 
@@ -42,8 +40,13 @@ public class PlayerPosition : MonoBehaviour {
     }
 
     private void LoadSpritePlayer() {
-        //playerPrefab.GetComponent<PlayerData>().levels[0].visualization.GetComponent<SpriteRenderer>();
-        //playerPrefab.GetComponent<PlayerData>().levels[0].visualization.GetComponent<SpriteRenderer>().sprite;
-        Debug.Log("Nhu cec: " + playerPrefab.GetComponent<PlayerData>().levels[0].visualization.GetComponent<SpriteRenderer>().sprite);
+
+		int coin = playerPrefab.GetComponent<PlayerData> ().levels [0].cost;
+		if (coin > GameManager.instance.Gold) {
+			gameObject.SetActive (false);
+		} else {
+			gameObject.transform.FindChild ("PlayerImage").gameObject.GetComponent<SpriteRenderer> ().sprite = 
+				playerPrefab.GetComponent<PlayerData> ().levels [0].visualization.GetComponent<SpriteRenderer> ().sprite;
+		}
     }
 }
