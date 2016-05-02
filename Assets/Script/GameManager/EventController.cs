@@ -28,6 +28,10 @@ public class EventController : MonoBehaviour {
 					showRangeObject.transform.FindChild("RangeImage").gameObject.SetActive(true);
 					return;
 				}
+
+				if(hit.collider.tag != "PopupOpenSpot"){
+					PlacePlayer.instance.CloseAllPopup();
+				}
 			}
 			Debug.Log ("Tat hang");
 			if (showRangeObject != null) {
@@ -36,11 +40,11 @@ public class EventController : MonoBehaviour {
 			}
 		}
 
-		if (Input.GetMouseButtonDown (0)) {
+		/*if (Input.GetMouseButtonDown (0)) {
 			if(PlacePlayer.isActivePopup){
 				Debug.Log("An mia di");
 				PlacePlayer.instance.CloseAllPopup();
 			}
-		}
+		}*/
 	}
 }

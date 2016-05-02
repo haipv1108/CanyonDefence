@@ -16,15 +16,13 @@ public class PlayerPosition : MonoBehaviour {
 
     void Update() {
         //Check neu tien du de mua player nay hay khong?
-        
-    }
-
-
-    public void createPlayer() {
-        
+		if (!canPlacePlayer ()) {
+			NotePlayer();
+		}
     }
 
     void OnMouseUp() {
+		Debug.Log ("Cham mia roi");
         if (canPlacePlayer())
         {
             Debug.Log("Co the dat duoc player");
@@ -40,13 +38,11 @@ public class PlayerPosition : MonoBehaviour {
     }
 
     private void LoadSpritePlayer() {
-
-		int coin = playerPrefab.GetComponent<PlayerData> ().levels [0].cost;
-		if (coin > GameManager.instance.Gold) {
-			gameObject.SetActive (false);
-		} else {
-			gameObject.transform.FindChild ("PlayerImage").gameObject.GetComponent<SpriteRenderer> ().sprite = 
-				playerPrefab.GetComponent<PlayerData> ().levels [0].visualization.GetComponent<SpriteRenderer> ().sprite;
-		}
+		gameObject.transform.FindChild ("PlayerImage").gameObject.GetComponent<SpriteRenderer> ().sprite = 
+			playerPrefab.GetComponent<PlayerData> ().levels [0].visualization.GetComponent<SpriteRenderer> ().sprite;
     }
+
+	private void NotePlayer(){
+		gameObject.SetActive (false);
+	}
 }

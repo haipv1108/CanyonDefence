@@ -23,8 +23,6 @@ public class PlacePlayer : MonoBehaviour {
 	}
 
     void OnMouseUp() {
-        //
-		Debug.Log ("ONMOUSE UP");
 		if (currentGameObject != gameObject) {
 			CloseAllPopup();
 		}
