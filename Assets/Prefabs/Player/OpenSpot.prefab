@@ -600,7 +600,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .864267945, y: -.309312165, z: 0}
+  m_LocalPosition: {x: -10.2799997, y: .319999993, z: 0}
   m_LocalScale: {x: 1.39999998, y: 1.39999998, z: 1}
   m_Children:
   - {fileID: 462700}
@@ -685,7 +685,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1.62, y: .899999976}
+  m_Size: {x: .5, y: .5}
 --- !u!61 &6125928
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -873,6 +873,7 @@ MonoBehaviour:
   playerPrefab: {fileID: 0}
   listPlayer: {fileID: 130384}
   upgradeGameObject: {fileID: 11433050}
+  player: {fileID: 0}
 --- !u!114 &11433050
 MonoBehaviour:
   m_ObjectHideFlags: 1
