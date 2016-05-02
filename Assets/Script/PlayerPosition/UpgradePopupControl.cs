@@ -22,6 +22,10 @@ public class UpgradePopupControl : MonoBehaviour {
         gameObject.SetActive(false);
     }
 
+	public bool isOpen(){
+		return gameObject.activeSelf ;
+	}
+
     public void CheckActivePopup() {
         if (placePlayer.IsLevelMax()) {
             upPopup.SetActive(false);

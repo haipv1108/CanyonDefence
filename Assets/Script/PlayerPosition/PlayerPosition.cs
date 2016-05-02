@@ -38,7 +38,6 @@ public class PlayerPosition : MonoBehaviour {
     private bool canPlacePlayer() {
         Debug.Log("Gold manager: " + GameManager.instance.Gold);
         cost = playerPrefab.GetComponent<PlayerData>().levels[0].cost;
-        Debug.Log("Gold can mua: " + cost);
         return player == null && GameManager.instance.Gold >= cost;
     }
 

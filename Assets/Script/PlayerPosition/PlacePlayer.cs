@@ -3,25 +3,40 @@ using System.Collections;
 
 public class PlacePlayer : MonoBehaviour {
 
+	public static PlacePlayer instance;
     public GameObject playerPrefab;
     public GameObject listPlayer;
     public UpgradePopupControl upgradeGameObject;
     private GameObject player;
 
+	public static GameObject gameObjectActive;
+	public static UpgradePopupControl upgradeGameObjectActive;
+
+	public static bool isActivePopup = false;
+
     // Khi click chuot xuong, se hien thi danh sach cac player co the dat xuong. 
     //Nguoi dung se chon player de cai dat
 
+	void Awake(){
+		instance = this;
+	}
+
     void OnMouseUp() {
         //
-        if (player == null)
-        {
-            Debug.Log("Click vao roi");
-            listPlayer.SetActive(true);
-        } else {
-            //TODO: Xu ly o upgrade popup
-            upgradeGameObject.Open();
-
-        }
+		Debug.Log ("ONMOUSE UP");
+		if (!isActivePopup) {
+			if (player == null)
+			{
+				listPlayer.SetActive(true);
+				isActivePopup = true;
+				gameObjectActive = listPlayer;
+			} else {
+				//TODO: Xu ly o upgrade popup
+				isActivePopup = true;
+				upgradeGameObject.Open();
+				upgradeGameObjectActive = upgradeGameObject;
+			}
+		}
     }
 
     public bool CanUpgradePlayer() {
@@ -59,14 +74,24 @@ public class PlacePlayer : MonoBehaviour {
 
     public void CloseListPlayer() {
         listPlayer.SetActive(false);
+		isActivePopup = false;
     }
 
     public void CloseUpgradePopup() {
+		isActivePopup = false;
         upgradeGameObject.Close();
     }
 
     public GameObject GetPlayer() {
         return player;
     }
-	
+
+	public void CloseAllPopup(){
+		if (gameObjectActive != null) {
+			gameObjectActive.SetActive (false);
+		}
+		if(upgradeGameObjectActive != null)
+			upgradeGameObjectActive.Close ();
+		isActivePopup = false;
+	}
 }

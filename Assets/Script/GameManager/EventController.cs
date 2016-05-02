@@ -14,5 +14,12 @@ public class EventController : MonoBehaviour {
 			}
 				return;
 		}
+
+		if (Input.GetMouseButtonDown (0)) {
+			if(PlacePlayer.isActivePopup){
+				Debug.Log("An mia di");
+				PlacePlayer.instance.CloseAllPopup();
+			}
+		}
 	}
 }
