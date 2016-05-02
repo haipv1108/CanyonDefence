@@ -6,7 +6,7 @@ public class PlacePlayer : MonoBehaviour {
     public GameObject playerPrefab;
     public GameObject listPlayer;
     public UpgradePopupControl upgradeGameObject;
-    private GameObject player;
+    public GameObject player;
 
     // Khi click chuot xuong, se hien thi danh sach cac player co the dat xuong. 
     //Nguoi dung se chon player de cai dat
