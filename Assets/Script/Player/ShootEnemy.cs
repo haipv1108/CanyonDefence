@@ -16,6 +16,10 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
 
 	public float defaultRotation = 90;
 
+	void Awake() {
+		transform.FindChild ("RangeImage").gameObject.SetActive (false);
+	}
+
     void Start() {
         lastShotTime = Time.time;
         playerData = gameObject.GetComponentInChildren<PlayerData>();

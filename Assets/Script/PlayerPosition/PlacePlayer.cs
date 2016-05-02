@@ -7,7 +7,7 @@ public class PlacePlayer : MonoBehaviour {
     public GameObject playerPrefab;
     public GameObject listPlayer;
     public UpgradePopupControl upgradeGameObject;
-    private GameObject player;
+    public GameObject player;
 
 	public static GameObject currentGameObject;
 	public static GameObject gameObjectActive;
