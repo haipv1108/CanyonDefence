@@ -10,7 +10,11 @@ public class UpgradePopupControl : MonoBehaviour {
 
     void Update() {
         //Kiem tra cac popup duoc phep hien thi
-        CheckActivePopup();
+		if (isOpen ())
+			CheckActivePopup ();
+		else {
+			DeActiveAllPopup();
+		}
     }
 
     public void Open() {
@@ -27,18 +31,26 @@ public class UpgradePopupControl : MonoBehaviour {
 	}
 
     public void CheckActivePopup() {
-        if (placePlayer.IsLevelMax()) {
-            upPopup.SetActive(false);
-            maxPopup.SetActive(true);
-            sellPopup.SetActive(true);
-        }
-        if (placePlayer.CanUpgradePlayer())
-        {
-            upPopup.SetActive(true);
-            maxPopup.SetActive(false);
-            sellPopup.SetActive(true);
-        }
-        //TODO: Doi mau uppopup khi khong nang cap duoc do thieu tien
+		if (placePlayer.IsLevelMax ()) {
+			upPopup.SetActive (false);
+			maxPopup.SetActive (true);
+			sellPopup.SetActive (true);
+		} else {
+			maxPopup.SetActive (false);
+			sellPopup.SetActive (true);
+			if (placePlayer.player.GetComponent<PlayerData> ().CurrentLevel.cost > GameManager.instance.Gold) {
+				//Lam mo object
+				upPopup.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.3f);
+			} else {
+				upPopup.SetActive (true);
+			}
+		}
     }
+
+	private void DeActiveAllPopup(){
+		upPopup.SetActive (false);
+		maxPopup.SetActive (false);
+		sellPopup.SetActive (false);
+	}
 	
 }

@@ -34,7 +34,6 @@ public class PlacePlayer : MonoBehaviour {
 				isActivePopup = true;
 				gameObjectActive = listPlayer;
 			} else {
-				//TODO: Xu ly o upgrade popup
 				isActivePopup = true;
 				upgradeGameObject.Open();
 				upgradeGameObjectActive = upgradeGameObject;
@@ -66,22 +65,25 @@ public class PlacePlayer : MonoBehaviour {
     public void SetPlayer(GameObject playerPrefab) {
         this.playerPrefab = playerPrefab;
         player = (GameObject)Instantiate(playerPrefab, transform.position, Quaternion.identity);
-        //TODO: Tru tien gamemanager
         GameManager.instance.Gold -= player.GetComponent<PlayerData>().CurrentLevel.cost;
+		Debug.Log ("Chay duoc chua");
     }
 
     public void SellPlayer() {
-        //TODO: Them tien
         Destroy(player);
     }
 
     public void CloseListPlayer() {
         listPlayer.SetActive(false);
+		Debug.Log ("Da goi close list");
 		isActivePopup = false;
     }
 
     public void CloseUpgradePopup() {
 		isActivePopup = false;
+		if (upgradeGameObjectActive != null) {
+			upgradeGameObjectActive = null;
+		}
         upgradeGameObject.Close();
     }
 

@@ -70,4 +70,11 @@ public class GameManager : MonoBehaviour {
 
 
 	}
+
+	void Update(){
+		if (Input.GetKeyDown(KeyCode.T)) {
+			Gold -= 100;
+			Debug.Log("GOLD: " + Gold);
+		}
+	}
 }

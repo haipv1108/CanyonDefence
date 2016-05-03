@@ -17,7 +17,6 @@ public class UpgradePosition : MonoBehaviour {
 
     void OnMouseUp() {
         placePlayer.CloseUpgradePopup();
-        Debug.Log("Nhu cc");
         if (placePlayer.CanUpgradePlayer())
         {
             Debug.Log("Co the upgrade");

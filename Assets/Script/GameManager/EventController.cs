@@ -29,7 +29,8 @@ public class EventController : MonoBehaviour {
 					return;
 				}
 
-				if(hit.collider.tag != "PopupOpenSpot"){
+			}else{
+				if(PlacePlayer.isActivePopup){
 					PlacePlayer.instance.CloseAllPopup();
 				}
 			}
@@ -40,11 +41,5 @@ public class EventController : MonoBehaviour {
 			}
 		}
 
-		/*if (Input.GetMouseButtonDown (0)) {
-			if(PlacePlayer.isActivePopup){
-				Debug.Log("An mia di");
-				PlacePlayer.instance.CloseAllPopup();
-			}
-		}*/
 	}
 }
