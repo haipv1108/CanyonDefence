@@ -66,7 +66,11 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
         bulletControl.startPosition = startPosition;
         bulletControl.targetPosition = targetPosition;
 
-        //Animator & audio shot
+		if (Attributes.isSoundSFXOn ()) {
+			AudioSource audio = gameObject.GetComponent<AudioSource>();
+			audio.volume = Attributes.getSFXVolume();
+			audio.Play();
+		}
     }
 
 	public  float Distance(Vector2 v) {

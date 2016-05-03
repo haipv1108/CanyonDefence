@@ -23,6 +23,9 @@ public class UpgradePosition : MonoBehaviour {
             placePlayer.GetPlayer().GetComponent<PlayerData>().increaseLevel();
 
             //TODO: Them am thanh upgrade
+			if(SoundManager.instance != null){
+				SoundManager.instance.PlaySFX(SFX.UPGRADE_PLAYER);
+			}
             GameManager.instance.Gold -= placePlayer.GetPlayer().GetComponent<PlayerData>().CurrentLevel.cost;
         }
         Debug.Log("The eo nao eo upgrade duoc");

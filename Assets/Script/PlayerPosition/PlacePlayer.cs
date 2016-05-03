@@ -66,16 +66,18 @@ public class PlacePlayer : MonoBehaviour {
         this.playerPrefab = playerPrefab;
         player = (GameObject)Instantiate(playerPrefab, transform.position, Quaternion.identity);
         GameManager.instance.Gold -= player.GetComponent<PlayerData>().CurrentLevel.cost;
-		Debug.Log ("Chay duoc chua");
     }
 
     public void SellPlayer() {
+		//Am thanh sell player
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.SELL_PLAYER);
+		}
         Destroy(player);
     }
 
     public void CloseListPlayer() {
         listPlayer.SetActive(false);
-		Debug.Log ("Da goi close list");
 		isActivePopup = false;
     }
 

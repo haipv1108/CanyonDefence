@@ -57,6 +57,10 @@ public class GameManager : MonoBehaviour {
 		if (lives > 0) {
 			--lives;
 			livesText.text = lives + "";
+			//Am thanh khi mat mang
+			if(SoundManager.instance != null){
+				SoundManager.instance.PlaySFX(SFX.PLAYER_DIE);
+			}
 			//Rung man hinh
 			shakeCamera.DoShake();
 			//Rung dien thoai
@@ -67,7 +71,6 @@ public class GameManager : MonoBehaviour {
 				Debug.Log ("Game Over: Lose");
 			}
 		}
-
 
 	}
 

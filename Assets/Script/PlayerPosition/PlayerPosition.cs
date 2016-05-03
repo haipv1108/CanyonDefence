@@ -28,9 +28,11 @@ public class PlayerPosition : MonoBehaviour {
         {
             Debug.Log("Co the dat duoc player");
             parentPlayer.SetPlayer(playerPrefab);
-			Debug.Log("Nhu cc");
+			//Am thanh dat quan
+			if(SoundManager.instance != null){
+				SoundManager.instance.PlaySFX(SFX.PLAYER_PLACE);
+			}
             parentPlayer.CloseListPlayer();
-			Debug.Log("Nhu cc2");
         }
     }
 

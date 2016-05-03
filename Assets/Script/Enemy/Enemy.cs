@@ -84,6 +84,10 @@ public class Enemy : MonoBehaviour {
 		switch (state) {
 		case EnemyState.DESTROY:
 			Debug.Log ("Destroy game object");
+			//Am thanh
+			if(SoundManager.instance != null){
+				SoundManager.instance.PlaySFX(SFX.ENEMY_DIE);
+			}
 
 			if (actionAfterDestroy != null)
 				actionAfterDestroy();

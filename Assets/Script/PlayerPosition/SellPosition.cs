@@ -10,7 +10,6 @@ public class SellPosition : MonoBehaviour {
     }
 
     void OnMouseUp() {
-        Debug.Log("Ban hang");
         placePlayer.SellPlayer();
         int goldSell = CalGoldSell();
         GameManager.instance.Gold += goldSell;
