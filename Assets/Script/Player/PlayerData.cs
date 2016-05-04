@@ -58,6 +58,15 @@ public class PlayerData : MonoBehaviour {
         }
     }
 
+	public int getCostNextLevel(){
+		int gold = 0;
+		PlayerLevel nextLevel = getNextLevel();
+		if (nextLevel != null) {
+			gold = nextLevel.cost;
+		}
+		return gold;
+	}
+
     public void increaseLevel() {
         int currentLevelIndex = levels.IndexOf(currentLevel);
 

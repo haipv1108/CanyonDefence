@@ -38,11 +38,12 @@ public class UpgradePopupControl : MonoBehaviour {
 		} else {
 			maxPopup.SetActive (false);
 			sellPopup.SetActive (true);
-			if (placePlayer.player.GetComponent<PlayerData> ().CurrentLevel.cost > GameManager.instance.Gold) {
+			if (placePlayer.player.GetComponent<PlayerData> ().getCostNextLevel() < GameManager.instance.Gold) {
 				//Lam mo object
-				upPopup.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0.3f);
-			} else {
 				upPopup.SetActive (true);
+			} else {
+				upPopup.SetActive(true);
+				upPopup.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.3f);
 			}
 		}
     }
