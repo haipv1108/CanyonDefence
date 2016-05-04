@@ -26,7 +26,7 @@ public class BulletController : MonoBehaviour {
             if (target != null) {
                 Transform healthBarTransform = target.transform.FindChild("HealthBar");
                 HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
-                healthBar.Damage(Mathf.Max(damage*2, 0));
+                healthBar.Damage(Mathf.Max(damage, 0));
 
 				/*
                 if (healthBar.currentHealth <= 0) {

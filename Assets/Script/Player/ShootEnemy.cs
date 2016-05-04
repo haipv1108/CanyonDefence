@@ -16,9 +16,15 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
 
 	public float defaultRotation = 90;
 
+	private GameObject rangeImageObject;
+
+	public bool isShowingRange = false;
+
 	void Awake() {
-		transform.FindChild ("RangeImage").gameObject.SetActive (false);
+		rangeImageObject = transform.FindChild ("RangeImage").gameObject;
+		HideRange ();
 	}
+	
 
     void Start() {
         lastShotTime = Time.time;
@@ -50,6 +56,18 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
 		}
  
     }
+
+
+
+	public void ShowRange() {
+		isShowingRange = true;
+		rangeImageObject.SetActive (true);
+	}
+
+	public void HideRange() {
+		isShowingRange = false;
+		rangeImageObject.SetActive (false);
+	}
 
     void Shoot(Collider2D target) {
         GameObject bulletPrefab = playerData.CurrentLevel.bullet;

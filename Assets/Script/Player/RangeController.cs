@@ -24,6 +24,7 @@ public class RangeController : MonoBehaviour {
 
 		}
 	}
+	
 
 	//An soi, moi lan se upgrade len 1.3
 	public float SetRadius(){

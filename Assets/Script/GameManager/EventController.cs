@@ -21,11 +21,11 @@ public class EventController : MonoBehaviour {
 						return;
 					} 
 					if (showRangeObject != null) {
-						showRangeObject.transform.FindChild("RangeImage").gameObject.SetActive(false);
+						showRangeObject.GetComponent<ShootEnemy>().HideRange();
 					}
 					Debug.Log ("Show hang");
 					showRangeObject = go;
-					showRangeObject.transform.FindChild("RangeImage").gameObject.SetActive(true);
+					showRangeObject.GetComponent<ShootEnemy>().ShowRange();
 					return;
 				}
 
