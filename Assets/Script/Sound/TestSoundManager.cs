@@ -9,12 +9,6 @@ public class TestSoundManager : MonoBehaviour {
 		settingSoundGameObject.Close ();
 	}
 
-	void Update(){
-		if (Input.anyKey) {
-			settingSoundGameObject.Open();
-		}
-	}
-
 	public void TestBGM(){
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.MENU);

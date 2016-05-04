@@ -34,6 +34,8 @@ public class Enemy : MonoBehaviour {
 
 	public float speed = 1.0f;
 
+	public int gold;
+
 	private HealthBar healthBar;
 
 	EnemyState enemyState;
@@ -89,6 +91,8 @@ public class Enemy : MonoBehaviour {
 				SoundManager.instance.PlaySFX(SFX.ENEMY_DIE);
 			}
 
+			//Cong them vang
+			GameManager.instance.Gold += gold;
 			if (actionAfterDestroy != null)
 				actionAfterDestroy();
 			foreach(EnemyObserver observer in observers) {

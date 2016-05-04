@@ -63,6 +63,10 @@ public class PlayerData : MonoBehaviour {
 
         if (currentLevelIndex < levels.Count - 1) {
             CurrentLevel = levels[currentLevelIndex + 1];
+			//Setrange
+			float radius = gameObject.transform.FindChild("Range").gameObject.GetComponent<RangeController>().SetRadius();
+			//Set range image
+			gameObject.transform.FindChild("RangeImage").gameObject.transform.localScale = new Vector3(radius/1.6f, radius/1.6f, radius/1.6f);
         }
     }
 }
