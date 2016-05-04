@@ -38,11 +38,6 @@ public class SelectController : MonoBehaviour {
 			SoundManager.instance.PlayBGM(BGM.SELECT_MAP);
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	/* ------------ Click Button ------------*/
 	// Chon Map
@@ -58,7 +53,6 @@ public class SelectController : MonoBehaviour {
 			Attributes.mapID = 1;
 
 		SetTriggerSelectMap ();
-	
 	}
 
 	// Chon Difficulty
@@ -72,10 +66,6 @@ public class SelectController : MonoBehaviour {
 			Attributes.difficulty = dif;
 		else
 			Attributes.difficulty = 1;
-		//		print ("dif: " + Attributes.difficulty);
-
-		// Loading Scen
-		// Vao Gameplay
 		Application.LoadLevel (Strings.SCEN_GAMEPLAY);
 	}
 

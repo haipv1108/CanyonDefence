@@ -11,6 +11,7 @@ public class Attributes {
 	public static int vibration = PlayerPrefs.GetInt(Strings.VIBRATION, IS_ON);
 	public static float bgm_volume = PlayerPrefs.GetFloat(Strings.BGM_VOLUME, 0.5f);
 	public static float sfx_volume = PlayerPrefs.GetFloat(Strings.SFX_VOLUME, 0.5f);
+	public static string user_name = PlayerPrefs.GetString(Strings.USER_NAME, "");
 
 	public static int IS_ON = 1;
 	public static int IS_OFF = 0;
@@ -82,5 +83,18 @@ public class Attributes {
 		}
 		PlayerPrefs.SetFloat (Strings.SFX_VOLUME, sfx_volume);
 	}
+
+	//Set username
+
+	public static void setUserName(string name){
+		user_name = name;
+		PlayerPrefs.SetString (Strings.USER_NAME, user_name);
+	}
+
+	//Get username
+	public static string getUserName(){
+		return user_name;
+	}
+	
 
 }
