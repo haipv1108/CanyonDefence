@@ -29,8 +29,8 @@ public class ResultPopup : MonoBehaviour {
 
 	private void LoadInfo(){
 		defficulty.text = LoadDefficulty ();
-		waves.text = "Waves: 5/10";
-		score.text = "Score: 30000";
+		waves.text = LoadWavesInfo ();
+		score.text = LoadScoreInfo ();
 	}
 
 	private string LoadDefficulty(){
@@ -48,6 +48,24 @@ public class ResultPopup : MonoBehaviour {
 			default:
 				text = "Difficulty :  Easy";
 				break;
+		}
+		return text;
+	}
+
+	private string LoadWavesInfo(){
+		string text = "Waves: ";
+		if (SpawnEnemy.instance != null) {
+			int maxWave = SpawnEnemy.instance.getMaxWave ();
+			int currentWave = SpawnEnemy.instance.getCurrentWave ();
+			text += currentWave + "/" + maxWave;
+		}
+		return text;
+	}
+
+	private string LoadScoreInfo(){
+		string text = "Scores: ";
+		if (GameManager.instance != null) {
+			text += GameManager.instance.Score;
 		}
 		return text;
 	}

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SpawnEnemy : MonoBehaviour {
 
+	public static SpawnEnemy instance;
 	public Wave[] waves;
 	public int timeBetweenWaves = 5;
 
@@ -15,13 +16,14 @@ public class SpawnEnemy : MonoBehaviour {
 	public GameObject[] waypoints;
 
 	public GameObject testEnemyPrefab;
-
+	
+	void Awake(){
+		instance = this;
+	}
 
 	void Start(){
 		lastSpawnTime = Time.time;
 		gameManager = GameManager.instance;
-	//	Instantiate(testEnemyPrefab).GetComponent<Enemy>().waypoints = waypoints;
-//Instantiate (testEnemyPrefab).GetComponent<Enemy> ().MoveByWayPoints ();
 	}
 
 	void  Update() {
@@ -60,5 +62,13 @@ public class SpawnEnemy : MonoBehaviour {
 				GameManager.instance.SetGameState(GAMESTATE.WINGAME);
 			}
 		}
+	}
+
+	public int getCurrentWave(){
+		return gameManager.Wave;
+	}
+
+	public int getMaxWave(){
+		return waves.Length;
 	}
 }

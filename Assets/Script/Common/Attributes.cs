@@ -118,7 +118,19 @@ public class Attributes {
 	}
 
 	public static List<int> getListScore(){
-		return DataManager.instance.GetIntList(Strings.DATA_SCORE);
+		List<int> list = DataManager.instance.GetIntList(Strings.DATA_SCORE);
+		if (list.Count != 0) {
+			for(int i = 0; i < list.Count - 1; i++){
+				for(int j = i+1; j < list.Count; j++){
+					if(list[i] < list[j]){
+						int temp = list[i];
+						list[i] = list[j];
+						list[j] = temp;
+					}
+				}
+			}
+		}
+		return list;
 	}
 
 	public static void setScoreData(int score){

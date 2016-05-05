@@ -21,6 +21,16 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+	public Text scoreText;
+	public int score;
+	public int Score{
+		get { return score;}
+		set{
+			score = value;
+			scoreText.text = score.ToString();
+		}
+	}
+
     public Text waveText;
 
 	public Text livesText;
@@ -42,7 +52,7 @@ public class GameManager : MonoBehaviour {
                     nextWaveLabels[i].GetComponent<Animator>().SetTrigger("nextWave");
                 }
             }
-//            waveText.text = (wave + 1).ToString();
+			waveText.text = GetCurrentWaveString();
         }
     }
 
@@ -54,6 +64,7 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         Gold = 1000;
+		Score = 0;
 		lives = 10;	
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
@@ -123,11 +134,8 @@ public class GameManager : MonoBehaviour {
 			Gold -= 100;
 			Debug.Log("GOLD: " + Gold);
 		}
-		if (Input.GetKeyDown (KeyCode.A)) {
-			SetGameState(GAMESTATE.GAMEPLAYING);
-		}
-		if (Input.GetKeyDown (KeyCode.C)) {
-			SetGameState(GAMESTATE.GAMEPAUSE);
+		if (Input.GetKeyDown (KeyCode.S)) {
+			Score +=100;
 		}
 
 	}
@@ -135,6 +143,14 @@ public class GameManager : MonoBehaviour {
 	private void SetTimeScale(float time){
 		timescale = time;
 		Time.timeScale = timescale;
+	}
+
+	private string GetCurrentWaveString(){
+		string text = wave + 1 + "";
+		if (SpawnEnemy.instance != null) {
+			text += " OF " + SpawnEnemy.instance.getMaxWave();
+		}
+		return text;
 	}
 }
 
