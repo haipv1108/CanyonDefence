@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using CGArt.Utils;
 
 public class Attributes {
 
@@ -94,6 +96,33 @@ public class Attributes {
 	//Get username
 	public static string getUserName(){
 		return user_name;
+	}
+
+	public static List<string> getListDataScore(){
+		List<string> list = new List<string> ();
+		List<int> listScore = getListScore ();
+		if (user_name == "") {
+			int i = 1;
+			foreach (int score in listScore) {
+				string arrow = i + ". " + score;
+				list.Add(arrow);
+				i++;
+			}
+		} else {
+			foreach (int score in listScore) {
+				string arrow = user_name + ". " + score;
+				list.Add(arrow);
+			}
+		}
+		return list;
+	}
+
+	public static List<int> getListScore(){
+		return DataManager.instance.GetIntList(Strings.DATA_SCORE);
+	}
+
+	public static void setScoreData(int score){
+		DataManager.instance.AddIntToList (Strings.DATA_SCORE, score);
 	}
 	
 

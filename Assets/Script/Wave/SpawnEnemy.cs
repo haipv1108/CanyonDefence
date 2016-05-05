@@ -57,6 +57,7 @@ public class SpawnEnemy : MonoBehaviour {
 				//GameObject gameOverText = GameObject.FindGameObjectWithTag ("GameWon");
 				//gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
 				Debug.Log ("You win");
+				GameManager.instance.SetGameState(GAMESTATE.WINGAME);
 			}
 		}
 	}

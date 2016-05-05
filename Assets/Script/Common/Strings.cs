@@ -14,4 +14,6 @@ public class Strings : MonoBehaviour {
 	public const string SFX_VOLUME = "sfx_volume";
 
 	public const string USER_NAME = "username";
+
+	public const string DATA_SCORE = "score";
 }

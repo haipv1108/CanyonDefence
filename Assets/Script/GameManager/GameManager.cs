@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
 	public GAMESTATE gamestate;
 	public GAMESTATE preGameState;
 
+	public ResultControl resultControl;
+
     public Text goldText;
     public int gold;
     public int Gold {
@@ -56,6 +58,8 @@ public class GameManager : MonoBehaviour {
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
 		}
+		Debug.Log ("Wave: " + wave);
+		Debug.Log ("Wave[]: " + nextWaveLabels.Length);
     }
 
 	public void DecreeHealth() {
@@ -74,7 +78,7 @@ public class GameManager : MonoBehaviour {
 			}
 			if (lives == 0) {
 				Debug.Log ("Game Over: Lose");
-				SetGameState(GAMESTATE.GAMEOVER);
+				SetGameState(GAMESTATE.LOSEGAME);
 			}
 		}
 
@@ -93,9 +97,19 @@ public class GameManager : MonoBehaviour {
 			case GAMESTATE.GAMESTART:
 				Time.timeScale = timescale;
 				break;
-			case GAMESTATE.GAMEOVER:
+			case GAMESTATE.LOSEGAME:
 				timescale = 1.0f;
 				Time.timeScale = timescale;
+				//Show popup result
+				resultControl.YouLose();
+				break;
+			case GAMESTATE.WINGAME:
+				timescale = 1.0f;
+				Time.timeScale = timescale;
+				//TODO: Save game vao score
+				
+				//Show popup result
+				resultControl.YouWin();
 				break;
 			case GAMESTATE.MENU:
 				timescale = 1.0f;
@@ -115,6 +129,7 @@ public class GameManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.C)) {
 			SetGameState(GAMESTATE.GAMEPAUSE);
 		}
+
 	}
 
 	private void SetTimeScale(float time){
@@ -127,6 +142,7 @@ public enum GAMESTATE{
 	GAMEPLAYING,
 	GAMEPAUSE,
 	GAMESTART,
-	GAMEOVER,
+	LOSEGAME,
+	WINGAME,
 	MENU
 }

@@ -336,8 +336,14 @@ MonoBehaviour:
     spawnInterval: 1
     maxEnemies: 10
   - enemyPrefab: {fileID: 172424, guid: afb71df2f40ea834494061517282f247, type: 2}
-    spawnInterval: 2
-    maxEnemies: 3
+    spawnInterval: 1.5
+    maxEnemies: 15
+  - enemyPrefab: {fileID: 156434, guid: e4717779289cc1848a5420cad51d6988, type: 2}
+    spawnInterval: 1
+    maxEnemies: 20
+  - enemyPrefab: {fileID: 161222, guid: b626bea0ed5f4d0439631f05a814cb58, type: 2}
+    spawnInterval: 1.5
+    maxEnemies: 10
   - enemyPrefab: {fileID: 172424, guid: afb71df2f40ea834494061517282f247, type: 2}
     spawnInterval: 2
     maxEnemies: 3
@@ -346,10 +352,19 @@ MonoBehaviour:
     maxEnemies: 3
   - enemyPrefab: {fileID: 172424, guid: afb71df2f40ea834494061517282f247, type: 2}
     spawnInterval: 2
-    maxEnemies: 3
-  - enemyPrefab: {fileID: 172424, guid: afb71df2f40ea834494061517282f247, type: 2}
+    maxEnemies: 5
+  - enemyPrefab: {fileID: 156434, guid: e4717779289cc1848a5420cad51d6988, type: 2}
+    spawnInterval: .5
+    maxEnemies: 20
+  - enemyPrefab: {fileID: 121118, guid: d9941463d7b7caf4c91980d46e3bf350, type: 2}
     spawnInterval: 2
-    maxEnemies: 3
+    maxEnemies: 10
+  - enemyPrefab: {fileID: 199554, guid: 032bd8fd8520ae24983dc0331ea73b56, type: 2}
+    spawnInterval: 2
+    maxEnemies: 10
+  - enemyPrefab: {fileID: 119148, guid: add212d6585e795499488a556a52fea9, type: 2}
+    spawnInterval: 2
+    maxEnemies: 10
   timeBetweenWaves: 5
   waypoints:
   - {fileID: 124960}
