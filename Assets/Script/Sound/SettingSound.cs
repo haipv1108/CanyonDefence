@@ -21,11 +21,11 @@ public class SettingSound : MonoBehaviour {
 		}
 	}
 
-	public void Open(){
-		gameObject.SetActive (true);
-	}
-
 	public void Close(){
 		gameObject.SetActive (false);
+	}
+
+	public void Open(){
+		gameObject.SetActive (true);
 	}
 }

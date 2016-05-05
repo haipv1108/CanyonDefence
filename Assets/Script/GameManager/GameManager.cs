@@ -130,12 +130,10 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if (Input.GetKeyDown(KeyCode.T)) {
-			Gold -= 100;
-			Debug.Log("GOLD: " + Gold);
-		}
-		if (Input.GetKeyDown (KeyCode.S)) {
-			Score +=100;
+		if (Application.platform == RuntimePlatform.Android) {
+			if (Input.GetKey(KeyCode.Home)){
+				SetGameState(GAMESTATE.GAMEPAUSE);
+			}
 		}
 
 	}
