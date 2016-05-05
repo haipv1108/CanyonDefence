@@ -97,6 +97,10 @@ public class GameManager : MonoBehaviour {
 				timescale = 1.0f;
 				Time.timeScale = timescale;
 				break;
+			case GAMESTATE.MENU:
+				timescale = 1.0f;
+				Time.timeScale = timescale;
+				break;
 		}
 	}
 
@@ -123,5 +127,6 @@ public enum GAMESTATE{
 	GAMEPLAYING,
 	GAMEPAUSE,
 	GAMESTART,
-	GAMEOVER
+	GAMEOVER,
+	MENU
 }

@@ -5,7 +5,7 @@ public class ExitGame : MonoBehaviour {
     public ExitPopup exitPopup;
 
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || (GameManager.instance.gamestate == GAMESTATE.GAMEPAUSE))
         {
 			// Cho game dung lai
 			GameManager.instance.SetGameState(GAMESTATE.GAMEPAUSE);
