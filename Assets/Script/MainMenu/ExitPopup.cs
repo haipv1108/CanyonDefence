@@ -9,6 +9,12 @@ public class ExitPopup : MonoBehaviour {
     }
 
     public void Close() {
+		//Cho lai gamestate 
+		if (GameManager.instance.preGameState == GAMESTATE.GAMESTART) {
+			GameManager.instance.SetGameState (GAMESTATE.GAMESTART);
+		} else {
+			GameManager.instance.SetGameState (GAMESTATE.GAMEPLAYING);
+		}
         gameObject.SetActive(false);
     }
 

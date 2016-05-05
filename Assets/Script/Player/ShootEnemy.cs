@@ -33,26 +33,18 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
     }
 
     void Update() {
-        //GameObject target = null;
-
-        //TODO: set target object cho bullet o day.
-        float minimalEnemyDistance = float.MaxValue;
-        //foreach (GameObject enemy in enemiesInRange) { }
-		if (enemiesInRange.Count > 0) {
-			target = enemiesInRange[0];
-			if (Time.time - lastShotTime > playerData.CurrentLevel.fireRate) {
-				Shoot(target.GetComponent<Collider2D>());
-				lastShotTime = Time.time;
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			float minimalEnemyDistance = float.MaxValue;
+			//foreach (GameObject enemy in enemiesInRange) { }
+			if (enemiesInRange.Count > 0) {
+				target = enemiesInRange[0];
+				if (Time.time - lastShotTime > playerData.CurrentLevel.fireRate) {
+					Shoot(target.GetComponent<Collider2D>());
+					lastShotTime = Time.time;
+				}
+				Vector2 desDirection = gameObject.transform.position - target.transform.position;
+				CalculateRotation();
 			}
-			//Xoay player
-			/*
-            Vector3 direction = gameObject.transform.position - target.transform.position;
-            gameObject.transform.rotation = Quaternion.AngleAxis(
-                Mathf.Atan2(direction.y, direction.x) * 180 / Mathf.PI,
-                new Vector3(0, 0, 1));
-                */
-			Vector2 desDirection = gameObject.transform.position - target.transform.position;
-			CalculateRotation();
 		}
  
     }

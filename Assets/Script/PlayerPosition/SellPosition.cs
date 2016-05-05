@@ -10,10 +10,12 @@ public class SellPosition : MonoBehaviour {
     }
 
     void OnMouseUp() {
-        placePlayer.SellPlayer();
-        int goldSell = CalGoldSell();
-        GameManager.instance.Gold += goldSell;
-        placePlayer.CloseUpgradePopup();
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			placePlayer.SellPlayer();
+			int goldSell = CalGoldSell();
+			GameManager.instance.Gold += goldSell;
+			placePlayer.CloseUpgradePopup();
+		}
     }
 
     private int CalGoldSell() {

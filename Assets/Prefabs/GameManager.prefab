@@ -31,17 +31,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &182062
+--- !u!1 &176588
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 445350}
-  - 114: {fileID: 11438082}
+  - 4: {fileID: 473278}
+  - 114: {fileID: 11470518}
   m_Layer: 0
-  m_Name: PauseController
+  m_Name: ExitGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,18 +80,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &445350
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 182062}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 461738}
-  m_RootOrder: 1
 --- !u!4 &461738
 Transform:
   m_ObjectHideFlags: 1
@@ -103,9 +91,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 484288}
-  - {fileID: 445350}
   - {fileID: 466374}
   - {fileID: 492822}
+  - {fileID: 473278}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &466374
@@ -119,7 +107,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 461738}
-  m_RootOrder: 2
+  m_RootOrder: 1
+--- !u!4 &473278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 461738}
+  m_RootOrder: 3
 --- !u!4 &484288
 Transform:
   m_ObjectHideFlags: 1
@@ -143,7 +143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 461738}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &11408892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -172,6 +172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakeCamera: {fileID: 11408892}
+  gamestate: 0
+  preGameState: 0
   goldText: {fileID: 0}
   gold: 0
   waveText: {fileID: 0}
@@ -197,19 +199,18 @@ MonoBehaviour:
   - {fileID: 162856, guid: ecb11be0c6447e84f8661fa533f35878, type: 2}
   - {fileID: 108452, guid: f93d10d33a7d8184a9d9d9b3f872ca98, type: 2}
   - {fileID: 196626, guid: 6e4f43d00b2f0ac4282b7fbbe8e0c450, type: 2}
---- !u!114 &11438082
+--- !u!114 &11470518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 182062}
+  m_GameObject: {fileID: 176588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 564ac446c3cee2742b7d62a36eae73d9, type: 3}
+  m_Script: {fileID: 11500000, guid: b6e9811835f1c23479d5a480ebc08e36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectDifficulty: {fileID: 0}
-  selectController: {fileID: 0}
+  exitPopup: {fileID: 0}
 --- !u!114 &11479616
 MonoBehaviour:
   m_ObjectHideFlags: 1
