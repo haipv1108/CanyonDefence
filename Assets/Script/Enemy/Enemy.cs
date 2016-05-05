@@ -18,6 +18,11 @@ public enum EnemyState {
 	DESTROY
 }
 
+public enum Type {
+	ONGROUND,
+	FLY
+}
+
 public class Enemy : MonoBehaviour {
 
 	public bool isMoving ;
@@ -39,6 +44,8 @@ public class Enemy : MonoBehaviour {
 	private HealthBar healthBar;
 
 	EnemyState enemyState;
+
+	public Type type;
 
 	[HideInInspector]
 	public System.Action actionAfterDestroy;

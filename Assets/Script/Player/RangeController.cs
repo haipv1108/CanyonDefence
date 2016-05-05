@@ -5,6 +5,8 @@ public class RangeController : MonoBehaviour {
 
 	ShootEnemy shootEnemy;
 	private float radius = 0.0f;
+
+	public Type type;
 	// Use this for initialization
 	void Start () {
 		radius = gameObject.GetComponent<CircleCollider2D> ().radius;
@@ -13,8 +15,11 @@ public class RangeController : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other) {
 		if (other.gameObject.tag.Equals("Enemy")) {
+			Enemy enemy = other.gameObject.GetComponent<Enemy>();
+			if (enemy.type != this.type)
+				return;
 			shootEnemy.AddEnemyInRange(other.gameObject);
-			other.gameObject.GetComponent<Enemy>().observers.Add(shootEnemy);
+			enemy.observers.Add(shootEnemy);
 		}
 	}
 

@@ -18,6 +18,7 @@ public class ShootEnemy : MonoBehaviour, EnemyObserver {
 
 	private GameObject rangeImageObject;
 
+
 	public bool isShowingRange = false;
 
 	void Awake() {
