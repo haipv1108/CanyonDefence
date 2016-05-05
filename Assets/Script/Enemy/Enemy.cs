@@ -64,7 +64,7 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (isMoving) {
+		if (isMoving && GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
 			Vector3 startPosition = waypoints [currentWaypoint].transform.position;
 			Vector3 endPosition = waypoints [currentWaypoint + 1].transform.position;
 

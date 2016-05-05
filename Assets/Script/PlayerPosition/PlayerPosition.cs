@@ -16,24 +16,28 @@ public class PlayerPosition : MonoBehaviour {
 
     void Update() {
         //Check neu tien du de mua player nay hay khong?
-		if (!canPlacePlayer ()) {
-			NoteDeActivePlayer ();
-		} else {
-			NoteActivePlayer();
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			if (!canPlacePlayer ()) {
+				NoteDeActivePlayer ();
+			} else {
+				NoteActivePlayer();
+			}
 		}
     }
 
     void OnMouseUp() {
-        if (canPlacePlayer())
-        {
-            Debug.Log("Co the dat duoc player");
-            parentPlayer.SetPlayer(playerPrefab);
-			//Am thanh dat quan
-			if(SoundManager.instance != null){
-				SoundManager.instance.PlaySFX(SFX.PLAYER_PLACE);
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			if (canPlacePlayer())
+			{
+				Debug.Log("Co the dat duoc player");
+				parentPlayer.SetPlayer(playerPrefab);
+				//Am thanh dat quan
+				if(SoundManager.instance != null){
+					SoundManager.instance.PlaySFX(SFX.PLAYER_PLACE);
+				}
+				parentPlayer.CloseListPlayer();
 			}
-            parentPlayer.CloseListPlayer();
-        }
+		}
     }
 
     private bool canPlacePlayer() {

@@ -20,25 +20,29 @@ public class PlacePlayer : MonoBehaviour {
 
 	void Awake(){
 		instance = this;
+		player = null;
 	}
 
     void OnMouseUp() {
-		if (currentGameObject != gameObject) {
-			CloseAllPopup();
-		}
-		if (!isActivePopup) {
-			currentGameObject = gameObject;
-			if (player == null)
-			{
-				listPlayer.SetActive(true);
-				isActivePopup = true;
-				gameObjectActive = listPlayer;
-			} else {
-				isActivePopup = true;
-				upgradeGameObject.Open();
-				upgradeGameObjectActive = upgradeGameObject;
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			if (currentGameObject != gameObject) {
+				CloseAllPopup();
+			}
+			if (!isActivePopup) {
+				currentGameObject = gameObject;
+				if (player == null)
+				{
+					listPlayer.SetActive(true);
+					isActivePopup = true;
+					gameObjectActive = listPlayer;
+				} else {
+					isActivePopup = true;
+					upgradeGameObject.Open();
+					upgradeGameObjectActive = upgradeGameObject;
+				}
 			}
 		}
+
     }
 
     public bool CanUpgradePlayer() {

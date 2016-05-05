@@ -19,16 +19,17 @@ public class BulletController : MonoBehaviour {
     }
 
     void Update() {
-        float timeInterval = Time.time - startTime;
-        gameObject.transform.position = Vector3.Lerp(startPosition, targetPosition, timeInterval * speed / distance);
-
-        if (gameObject.transform.position.Equals(targetPosition)) {
-            if (target != null) {
-                Transform healthBarTransform = target.transform.FindChild("HealthBar");
-                HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
-                healthBar.Damage(Mathf.Max(damage, 0));
-
-				/*
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			float timeInterval = Time.time - startTime;
+			gameObject.transform.position = Vector3.Lerp(startPosition, targetPosition, timeInterval * speed / distance);
+			
+			if (gameObject.transform.position.Equals(targetPosition)) {
+				if (target != null) {
+					Transform healthBarTransform = target.transform.FindChild("HealthBar");
+					HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
+					healthBar.Damage(Mathf.Max(damage, 0));
+					
+					/*
                 if (healthBar.currentHealth <= 0) {
                     Destroy(target);
                     //TODO: Them hieu ung chet
@@ -38,8 +39,9 @@ public class BulletController : MonoBehaviour {
                     GameManager.instance.Gold += 50;
                 }
                 */
-            }
-            Destroy(gameObject);
-        }
+				}
+				Destroy(gameObject);
+			}
+		}
     }
 }

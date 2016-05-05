@@ -20,14 +20,6 @@ public class HealthBar : MonoBehaviour {
 		mfX = transform.position.x / transform.localScale.x;
     }
 
-    void Update() {
-		/*
-        Vector3 tmpScale = gameObject.transform.localScale;
-        tmpScale.x = currentHealth / maxHealth * originalScale;
-        gameObject.transform.localScale = tmpScale;
-		*/
-    }
-
 	public void Damage(float damage){
 		Debug.Log ("Damage");
 		if (currentHealth == 0)

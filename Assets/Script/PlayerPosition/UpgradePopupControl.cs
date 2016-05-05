@@ -9,11 +9,13 @@ public class UpgradePopupControl : MonoBehaviour {
     public GameObject maxPopup;
 
     void Update() {
-        //Kiem tra cac popup duoc phep hien thi
-		if (isOpen ())
-			CheckActivePopup ();
-		else {
-			DeActiveAllPopup();
+		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
+			//Kiem tra cac popup duoc phep hien thi
+			if (isOpen ())
+				CheckActivePopup ();
+			else {
+				DeActiveAllPopup();
+			}
 		}
     }
 
