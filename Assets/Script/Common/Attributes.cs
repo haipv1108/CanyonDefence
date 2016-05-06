@@ -133,9 +133,12 @@ public class Attributes {
 		return list;
 	}
 
+	public static void addScoreToList(int score){
+		DataManager.instance.AddIntToList (Strings.DATA_SCORE, score);
+	}
+
 	public static void setScoreData(int score){
 		DataManager.instance.AddIntToList (Strings.DATA_SCORE, score);
 	}
-	
 
 }

@@ -1,12 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Collections.Generic;
+
+public enum TypeResultPopup{
+	WIN,
+	LOSE
+}
 
 public class ResultPopup : MonoBehaviour {
 
 	public Text defficulty;
 	public Text waves;
 	public Text score;
+	public TypeResultPopup typeResult;
+
 
 	public void Open(){
 		LoadInfo ();
@@ -31,6 +39,25 @@ public class ResultPopup : MonoBehaviour {
 		defficulty.text = LoadDefficulty ();
 		waves.text = LoadWavesInfo ();
 		score.text = LoadScoreInfo ();
+
+		switch (typeResult) {
+			case TypeResultPopup.LOSE:
+				//TODO
+				break;
+			case TypeResultPopup.WIN:
+				//TODO: Kiem tra highscore
+				if(CheckHighScore()){
+					//TODO: Kich hoat popup highscore
+					GameObject textHighscore = 
+						gameObject.transform.FindChild("Bg content").gameObject.transform.FindChild("HighScoreImg").gameObject;
+					if(textHighscore != null){
+						textHighscore.SetActive(true);
+					}
+				}else{
+					gameObject.transform.FindChild("Bg content").gameObject.transform.FindChild("HighScoreImg").gameObject.SetActive(false);
+				}
+				break;
+		}
 	}
 
 	private string LoadDefficulty(){
@@ -68,5 +95,23 @@ public class ResultPopup : MonoBehaviour {
 			text += GameManager.instance.Score;
 		}
 		return text;
+	}
+
+	private bool CheckHighScore(){
+		int score = 0;
+		bool ok = true;
+		if (GameManager.instance != null) {
+			score = GameManager.instance.Score;
+		}
+		List<int> listScore = Attributes.getListScore ();
+		foreach (int s in listScore) {
+			if(score < s){
+				ok = false;
+			}
+		}
+		//Save score
+		Attributes.addScoreToList (score);
+		//Check highscore
+		return ok;
 	}
 }
