@@ -878,17 +878,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 365123302}
---- !u!224 &369202926 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532,
-    type: 2}
-  m_PrefabInternal: {fileID: 1476543375}
---- !u!114 &369202927 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11407288, guid: 1e6a380ed65829a4885e0af17ceb4532,
-    type: 2}
-  m_PrefabInternal: {fileID: 1476543375}
-  m_Script: {fileID: 11500000, guid: 9fa640f6baaaa3b4098dd02567f52489, type: 3}
 --- !u!1001 &412226147
 Prefab:
   m_ObjectHideFlags: 0
@@ -1134,7 +1123,6 @@ GameObject:
   - 92: {fileID: 474786798}
   - 124: {fileID: 474786797}
   - 81: {fileID: 474786796}
-  - 114: {fileID: 474786800}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1209,18 +1197,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &474786800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 474786794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62d3cc300500f334aa72cd29ba78502c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundObject: {fileID: 369202927}
 --- !u!1001 &486530598
 Prefab:
   m_ObjectHideFlags: 0
@@ -2795,7 +2771,6 @@ RectTransform:
   - {fileID: 887378226}
   - {fileID: 1416034120}
   - {fileID: 1125110868}
-  - {fileID: 369202926}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
@@ -3831,108 +3806,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 479104, guid: 3d5b5cce936a40243b67117fec55482e, type: 2}
   m_PrefabInternal: {fileID: 1467384318}
---- !u!1001 &1476543375
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 922673184}
-    m_Modifications:
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -2.38418579e-07
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_Pivot.x
-      value: .5
-      objectReference: {fileID: 0}
-    - target: {fileID: 22494772, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_Pivot.y
-      value: .5
-      objectReference: {fileID: 0}
-    - target: {fileID: 22419146, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22405540, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22407198, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22416264, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 199442, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 1e6a380ed65829a4885e0af17ceb4532, type: 2}
-  m_IsPrefabParent: 0
 --- !u!114 &1559090772 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11443064, guid: 1ae8d019baccf75429e3cb5512176ce6,

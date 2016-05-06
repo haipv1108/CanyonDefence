@@ -11,21 +11,10 @@ public class Setting : MonoBehaviour {
 
 	void Start(){
 		LoadInfo ();
-	}
-
-	void Update(){
-		if (bgmSlider.value != Attributes.getBGMVolume ()) {
-			Attributes.setBGMVolume(bgmSlider.value);
-		}
-		if (sfxSlider.value != Attributes.getSFXVolume ()) {
-			Attributes.setSFXVolume(sfxSlider.value);
-		}
-		if (vibrateToggle.isOn != Attributes.isVibrationOn ()) {
-			settingVibra(vibrateToggle.isOn);
-		}
-		if (usernameInputFeild.text != Attributes.getUserName ()) {
-			Attributes.setUserName(usernameInputFeild.text);
-		}
+		bgmSlider.onValueChanged.AddListener (delegate {ValueChangeCheckBGM ();});
+		sfxSlider.onValueChanged.AddListener (delegate {ValueChangeCheckSFX ();});
+		vibrateToggle.onValueChanged.AddListener(delegate {ValueChangeVibration ();});
+		usernameInputFeild.onValueChange.AddListener(delegate {ValueChangeName ();});
 	}
 
 	private void LoadInfo(){
@@ -45,5 +34,27 @@ public class Setting : MonoBehaviour {
 		} else {
 			Attributes.setVibration(Attributes.IS_OFF);
 		}
+	}
+
+	private void ValueChangeCheckBGM(){
+		Attributes.setBGMVolume(bgmSlider.value);
+	}
+
+	private void ValueChangeCheckSFX(){
+		Attributes.setSFXVolume(sfxSlider.value);
+	}
+
+	private void ValueChangeVibration(){
+		if (vibrateToggle.isOn) {
+			Attributes.setVibration (Attributes.IS_ON);
+		} else {
+			Attributes.setVibration(Attributes.IS_OFF);
+		}
+		Debug.Log ("Trang thai: " + Attributes.isVibrationOn());
+	}
+
+	private void ValueChangeName(){
+		Attributes.setUserName(usernameInputFeild.text);
+		Debug.Log ("Name: " + Attributes.getUserName());
 	}
 }

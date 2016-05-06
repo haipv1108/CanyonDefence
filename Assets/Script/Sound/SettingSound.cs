@@ -10,22 +10,23 @@ public class SettingSound : MonoBehaviour {
 	void Start(){
 		bgmSlider.value = Attributes.getBGMVolume ();
 		sfxSlider.value = Attributes.getSFXVolume ();
+		bgmSlider.onValueChanged.AddListener (delegate {ValueChangeCheckBGM ();});
+		sfxSlider.onValueChanged.AddListener (delegate {ValueChangeCheckSFX ();});
 	}
-
-	void Update(){
-		if (bgmSlider.value != Attributes.getBGMVolume ()) {
-			Attributes.setBGMVolume(bgmSlider.value);
-		}
-		if (sfxSlider.value != Attributes.getSFXVolume ()) {
-			Attributes.setSFXVolume(sfxSlider.value);
-		}
-	}
-
+	
 	public void Close(){
 		gameObject.SetActive (false);
 	}
 
 	public void Open(){
 		gameObject.SetActive (true);
+	}
+
+	private void ValueChangeCheckBGM(){
+		Attributes.setBGMVolume(bgmSlider.value);
+	}
+	
+	private void ValueChangeCheckSFX(){
+		Attributes.setSFXVolume(sfxSlider.value);
 	}
 }
