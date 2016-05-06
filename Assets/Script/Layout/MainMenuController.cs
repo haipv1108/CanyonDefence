@@ -25,7 +25,8 @@ public class MainMenuController : MonoBehaviour {
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
 		}
-        Application.LoadLevel(Strings.SCEN_SELECTMAP);
+		LoadScene.Load (Strings.SCEN_SELECTMAP);
+        //Application.LoadLevel(Strings.SCEN_SELECTMAP);
     }
 
     public void HelpBtn() {

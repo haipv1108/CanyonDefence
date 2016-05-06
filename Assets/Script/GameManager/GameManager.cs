@@ -69,8 +69,6 @@ public class GameManager : MonoBehaviour {
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
 		}
-		Debug.Log ("Wave: " + wave);
-		Debug.Log ("Wave[]: " + nextWaveLabels.Length);
     }
 
 	public void DecreeHealth() {
@@ -133,10 +131,8 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update(){
-		if (Application.platform == RuntimePlatform.Android) {
-			if (Input.GetKey(KeyCode.Home)){
-				SetGameState(GAMESTATE.GAMEPAUSE);
-			}
+		if (Input.GetKeyDown (KeyCode.T)) {
+			Score += 1000;
 		}
 
 	}

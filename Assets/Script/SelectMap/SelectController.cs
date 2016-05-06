@@ -53,6 +53,7 @@ public class SelectController : MonoBehaviour {
 			Attributes.mapID = 1;
 
 		SetTriggerSelectMap ();
+		Debug.Log ("SELECTED MAP: " + Attributes.mapID);
 	}
 
 	// Chon Difficulty
@@ -66,11 +67,14 @@ public class SelectController : MonoBehaviour {
 			Attributes.difficulty = dif;
 		else
 			Attributes.difficulty = 1;
-		Application.LoadLevel (Strings.SCEN_GAMEPLAY);
+		Debug.Log ("DEFFI: " + Attributes.difficulty);
+
+		GotoMap ();
 	}
 
 	public void BackMainMenu() {
-		Application.LoadLevel (Strings.SCEN_MENU);
+		LoadScene.Load (Strings.SCEN_MENU);
+		//Application.LoadLevel (Strings.SCEN_MENU);
 	}
 
 	public void BackSelectMap() {
@@ -87,6 +91,27 @@ public class SelectController : MonoBehaviour {
 		dif1Anim.SetTrigger ("CloseMap1");
 		dif2Anim.SetTrigger ("CloseDif2");
 		dif3Anim.SetTrigger ("CloseMap3");
+	}
+
+	private void GotoMap(){
+		switch (Attributes.mapID) {
+			case 1:
+				//GOTO Map 1
+				LoadScene.Load(Strings.SCEN_GAMEPLAY_MAP1);
+				break;
+			case 2:
+				//GOTO Map 2
+				LoadScene.Load(Strings.SCEN_GAMEPLAY_MAP2);
+				break;
+			case 3:
+				//GOTO Map 3
+				LoadScene.Load(Strings.SCEN_GAMEPLAY_MAP3);
+				break;
+			default:
+				//GOTO Map 1
+				LoadScene.Load(Strings.SCEN_GAMEPLAY_MAP1);
+				break;
+		}
 	}
 
 }
