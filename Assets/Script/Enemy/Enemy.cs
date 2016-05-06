@@ -98,8 +98,6 @@ public class Enemy : MonoBehaviour {
 				SoundManager.instance.PlaySFX(SFX.ENEMY_DIE);
 			}
 
-			//Cong them vang
-			GameManager.instance.Gold += gold;
 			if (actionAfterDestroy != null)
 				actionAfterDestroy();
 			foreach(EnemyObserver observer in observers) {
@@ -133,6 +131,15 @@ public class Enemy : MonoBehaviour {
 		sprite.transform.rotation = 
 			Quaternion.AngleAxis(rotationAngle, Vector3.forward);
 
+	}
+
+	public int GetScore(){
+		int heso = Random.Range (1, 3);
+		return heso * gold;
+	}
+
+	public int GetGold(){
+		return gold;
 	}
 	
 }

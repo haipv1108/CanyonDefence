@@ -144,9 +144,10 @@ public class GameManager : MonoBehaviour {
 	}
 
 	private string GetCurrentWaveString(){
-		string text = wave + 1 + "";
+		string text = "";
 		if (SpawnEnemy.instance != null) {
-			text += " OF " + SpawnEnemy.instance.getMaxWave();
+			if(wave <= SpawnEnemy.instance.getMaxWave())
+				text += wave + 1 + " OF " + SpawnEnemy.instance.getMaxWave();
 		}
 		return text;
 	}

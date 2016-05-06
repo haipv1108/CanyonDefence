@@ -2571,6 +2571,12 @@ Prefab:
     - {fileID: 11400594, guid: 1ae8d019baccf75429e3cb5512176ce6, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 1ae8d019baccf75429e3cb5512176ce6, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &966052243 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11409158, guid: 1ae8d019baccf75429e3cb5512176ce6,
+    type: 2}
+  m_PrefabInternal: {fileID: 966052242}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &974371901
 Prefab:
   m_ObjectHideFlags: 0
@@ -2904,7 +2910,7 @@ Prefab:
     - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
       propertyPath: goldText
       value: 
-      objectReference: {fileID: 1771709599}
+      objectReference: {fileID: 966052243}
     - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
       propertyPath: livesText
       value: 
@@ -2917,6 +2923,14 @@ Prefab:
       propertyPath: resultControl
       value: 
       objectReference: {fileID: 1925603779}
+    - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1771709599}
+    - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
+      propertyPath: waveText
+      value: 
+      objectReference: {fileID: 1842085000}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
   m_IsPrefabParent: 0
@@ -4495,6 +4509,12 @@ MonoBehaviour:
   - {fileID: 1409884991}
   - {fileID: 688408065}
   testEnemyPrefab: {fileID: 156434, guid: e4717779289cc1848a5420cad51d6988, type: 2}
+--- !u!114 &1842085000 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11486400, guid: 1ae8d019baccf75429e3cb5512176ce6,
+    type: 2}
+  m_PrefabInternal: {fileID: 966052242}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1854127014
 GameObject:
   m_ObjectHideFlags: 0

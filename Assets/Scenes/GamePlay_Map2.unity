@@ -2843,7 +2843,7 @@ Prefab:
     - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
       propertyPath: goldText
       value: 
-      objectReference: {fileID: 339021977}
+      objectReference: {fileID: 1069365056}
     - target: {fileID: 11417178, guid: bd65c3a6c66238946ba1151db6a83486, type: 2}
       propertyPath: livesText
       value: 
@@ -3175,6 +3175,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1047578667}
+--- !u!114 &1069365056 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11409158, guid: 1ae8d019baccf75429e3cb5512176ce6,
+    type: 2}
+  m_PrefabInternal: {fileID: 339021974}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1077808807
 Prefab:
   m_ObjectHideFlags: 0

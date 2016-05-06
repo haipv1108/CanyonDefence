@@ -31,6 +31,9 @@ public class HealthBar : MonoBehaviour {
 			enemy.actionAfterDestroy += () => {
 
 				Debug.Log ("Cong them vang");
+				GameManager.instance.Gold += enemy.GetGold();
+				Debug.Log ("Cong them diem");
+				GameManager.instance.Score += enemy.GetScore();
 			};
 			enemy.SetEnemyState(EnemyState.DESTROY);
 		}

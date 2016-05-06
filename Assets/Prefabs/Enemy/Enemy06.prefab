@@ -179,7 +179,8 @@ MonoBehaviour:
   isMoving: 0
   waypoints: []
   speed: 2
-  gold: 0
+  gold: 50
+  type: 0
 --- !u!114 &11484986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -299,6 +300,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: gold
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
