@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: 68c623d03e4282146b3c0289f143731c
-timeCreated: 1462327110
+timeCreated: 1462530464
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Load1_level1
     21300002: Load1_level2
     21300004: Load1_level3
+    21300006: M484ExplosionSet1_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,35 +54,15 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Load1_level1
+    - name: M484ExplosionSet1_0
       rect:
         serializedVersion: 2
-        x: 379
-        y: 191
-        width: 24
-        height: 22
+        x: 0
+        y: 0
+        width: 790
+        height: 440
       alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Load1_level2
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 223
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Load1_level3
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 260
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

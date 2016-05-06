@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 67a6a066d04ae4c4b8cef222e6ba7ac9
-timeCreated: 1462519811
-licenseType: Free
+timeCreated: 1462530437
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: M484BulletCollection2_0
@@ -59,7 +59,7 @@ TextureImporter:
         width: 1420
         height: 760
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

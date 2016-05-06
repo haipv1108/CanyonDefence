@@ -773,6 +773,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11493374, guid: cfaeef2497c5a894da5b9c7e4efa3545, type: 2}
+    - {fileID: 9517328, guid: cfaeef2497c5a894da5b9c7e4efa3545, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cfaeef2497c5a894da5b9c7e4efa3545, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &242228431
@@ -2912,7 +2913,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingPopup: {fileID: 1647073208}
   speedObject: {fileID: 900248589}
-  pauseObject: {fileID: 1410324672}
 --- !u!1001 &996179199
 Prefab:
   m_ObjectHideFlags: 0
@@ -3820,10 +3820,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 479104, guid: 3d5b5cce936a40243b67117fec55482e, type: 2}
   m_PrefabInternal: {fileID: 1408249494}
---- !u!1 &1410324672 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 112546, guid: 1ae8d019baccf75429e3cb5512176ce6, type: 2}
-  m_PrefabInternal: {fileID: 1925234284}
 --- !u!224 &1416034120 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22495390, guid: 61c6206f9ca50854c8917b8c30668640,
