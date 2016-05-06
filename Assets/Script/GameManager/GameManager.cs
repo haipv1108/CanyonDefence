@@ -126,6 +126,9 @@ public class GameManager : MonoBehaviour {
 				timescale = 1.0f;
 				Time.timeScale = timescale;
 				break;
+			case GAMESTATE.SETTING:
+				Time.timeScale = 0.0f;
+				break;
 		}
 	}
 
@@ -138,7 +141,7 @@ public class GameManager : MonoBehaviour {
 
 	}
 
-	private void SetTimeScale(float time){
+	public void SetTimeScale(float time){
 		timescale = time;
 		Time.timeScale = timescale;
 	}
@@ -159,5 +162,6 @@ public enum GAMESTATE{
 	GAMESTART,
 	LOSEGAME,
 	WINGAME,
-	MENU
+	MENU,
+	SETTING
 }

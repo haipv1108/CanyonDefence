@@ -17,7 +17,6 @@ public class CountDown : MonoBehaviour {
 			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.COUNT01_START);
 		if(count == 4)
 			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.START);*/
-		if (GameManager.instance.gamestate == GAMESTATE.GAMESTART) {
 			if (count >= texts.Length)
 			{
 				GameManager.instance.SetGameState(GAMESTATE.GAMEPLAYING);
@@ -26,7 +25,6 @@ public class CountDown : MonoBehaviour {
 			}
 			text.text = texts[count].text;
 			count++;
-		}
 
 		
 	}
