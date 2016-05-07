@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dc88352a18b64714db0beb381fe8ba20
-timeCreated: 1462002162
+timeCreated: 1462620410
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ TextureImporter:
     21300002: vi_tri_dat_player
     21300004: rung_xanh
     21300006: duong_di_enemy_1x
+    21300008: Cuaso
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -91,6 +92,16 @@ TextureImporter:
         y: 668
         width: 50
         height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cuaso
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1358
+        width: 53
+        height: 73
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

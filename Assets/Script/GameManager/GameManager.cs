@@ -49,8 +49,6 @@ public class GameManager : MonoBehaviour {
         set {
             wave = value;
             if (!gameOver) {
-				/*if(wave > 1 && nextWaveLabel != null)
-					nextWaveLabel.Open();*/
             }
 			waveText.text = GetCurrentWaveString();
         }
@@ -70,6 +68,7 @@ public class GameManager : MonoBehaviour {
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
 		}
+		waveText.text = GetCurrentWaveString();
     }
 
 	public void DecreeHealth() {
@@ -117,7 +116,7 @@ public class GameManager : MonoBehaviour {
 			case GAMESTATE.WINGAME:
 				timescale = 1.0f;
 				Time.timeScale = timescale;
-				//TODO: Save game vao score
+				//: Save game vao score
 				
 				//Show popup result
 				resultControl.YouWin();
@@ -139,6 +138,7 @@ public class GameManager : MonoBehaviour {
 		if (paused) {
 			SetGameState(GAMESTATE.GAMEPAUSE);
 		}
+		Debug.Log (gamestate);
 
 	}
 
