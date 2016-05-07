@@ -29,7 +29,10 @@ public class SpawnEnemy : MonoBehaviour {
 	void Start(){
 		lastSpawnTime = Time.time;
 		gameManager = GameManager.instance;
-		nextWaveLabel.Close ();
+		if(nextWaveLabel != null)
+			nextWaveLabel.Close ();
+		if (nextWaveFlyLabel != null)
+			nextWaveFlyLabel.Close ();
 	}
 
 	void  Update() {

@@ -27,7 +27,7 @@ public class ResultPopup : MonoBehaviour {
 
 	public void Retry(){
 		//TODO Load application
-		Application.LoadLevel (Application.loadedLevelName);
+		LoadScene.Load (Application.loadedLevelName);
 	}
 
 	public void GoHome(){

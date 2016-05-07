@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour {
     void Start() {
         Gold = 1000;
 		Score = 0;
-		lives = 10;	
+		lives = 11;	
 		if (SoundManager.instance != null) {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
 		}
