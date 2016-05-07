@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: b8ad9d12186d44f9eb944946e3b646e3
+timeCreated: 1462619342
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tree_1
+    21300002: tree_2
+    21300004: tree_3
+    21300006: tree_4
+    21300008: box_1
+    21300010: box_2
+    21300012: player_place
+    21300014: rung_xanh
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tree_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1301
+        width: 163
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1414
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1414
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1413
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_1
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1358
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1356
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_place
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 907
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rung_xanh
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 766
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
