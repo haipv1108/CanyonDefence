@@ -18,6 +18,9 @@ public class EventController : MonoBehaviour {
 					Debug.Log (hit.collider.tag);
 					if (hit.collider.tag == "OpenSpot") {
 						go = hit.collider.transform.gameObject.GetComponent<PlacePlayer>().player;
+						if (go == null) {
+							return;
+						}
 						if (go == showRangeObject) {
 							return;
 						} 

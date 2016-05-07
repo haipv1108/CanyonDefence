@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SpawnEnemy : MonoBehaviour {
 
@@ -16,6 +17,8 @@ public class SpawnEnemy : MonoBehaviour {
 	public GameObject[] waypoints;
 
 	public GameObject testEnemyPrefab;
+
+	public GameObject flyWaveGO;
 	
 	void Awake(){
 		instance = this;
@@ -30,14 +33,27 @@ public class SpawnEnemy : MonoBehaviour {
 		if (GameManager.instance.gamestate == GAMESTATE.GAMEPLAYING) {
 			int currentWave = gameManager.Wave;
 			if (currentWave < waves.Length) {
-				// 2
+
+			
 				float timeInterval = Time.time - lastSpawnTime;
 				float spawnInterval = waves[currentWave].spawnInterval;
+				if (enemiesSpawned == 0 && !flyWaveGO.activeInHierarchy) {
+					GameObject newEnemy = (GameObject)
+						Instantiate(waves[currentWave].enemyPrefab);
+					if (newEnemy.GetComponent<Enemy>().type == Type.FLY) {
+						flyWaveGO.SetActive(true);
+						Debug.Log ("Fly wave");
+					}
+					Destroy(newEnemy);
+				}
 				if (((enemiesSpawned == 0 && timeInterval > timeBetweenWaves) ||
 				     timeInterval > spawnInterval) && 
 				    enemiesSpawned < waves[currentWave].maxEnemies) {
 					// neu chua ra con enemy nao && thoi gian troi qua > thoi gian giua moi waves
 					// hoac thoi gian troi qua > thoi gian giua moi wave && chua ra het enemy
+					if (flyWaveGO.activeInHierarchy) {
+						flyWaveGO.SetActive(false);
+					}
 					lastSpawnTime = Time.time;
 					GameObject newEnemy = (GameObject)
 						Instantiate(waves[currentWave].enemyPrefab);
@@ -45,10 +61,16 @@ public class SpawnEnemy : MonoBehaviour {
 					newEnemy.GetComponent<Enemy>().SetEnemyState(EnemyState.START_RUN);
 					enemiesSpawned++;
 				}
+
+
 				// 4 
 				if (enemiesSpawned == waves[currentWave].maxEnemies &&
 				    GameObject.FindGameObjectWithTag("Enemy") == null) {
 					gameManager.Wave++;
+					int currentWay = gameManager.Wave;
+					if (currentWay < waves.Length ) {
+
+					}
 					//gameManager.Gold = Mathf.RoundToInt(gameManager.Gold * 1.1f);
 					enemiesSpawned = 0;
 					lastSpawnTime = Time.time;
