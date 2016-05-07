@@ -49,8 +49,8 @@ public class GameManager : MonoBehaviour {
         set {
             wave = value;
             if (!gameOver) {
-				if(wave > 1 && nextWaveLabel != null)
-					nextWaveLabel.Open();
+				/*if(wave > 1 && nextWaveLabel != null)
+					nextWaveLabel.Open();*/
             }
 			waveText.text = GetCurrentWaveString();
         }
@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour {
 
 	void Update(){
 		if (Input.GetKeyDown (KeyCode.T)) {
-			Score += 1000;
+			SetTimeScale(3.0f);
 		}
 		if (paused) {
 			SetGameState(GAMESTATE.GAMEPAUSE);

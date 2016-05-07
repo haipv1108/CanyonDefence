@@ -18,6 +18,9 @@ public class SpawnEnemy : MonoBehaviour {
 
 	public GameObject testEnemyPrefab;
 
+	public NextWaveLabel nextWaveLabel;
+
+	public NextWaveLabel nextWaveFlyLabel;
 	
 	void Awake(){
 		instance = this;
@@ -26,6 +29,7 @@ public class SpawnEnemy : MonoBehaviour {
 	void Start(){
 		lastSpawnTime = Time.time;
 		gameManager = GameManager.instance;
+		nextWaveLabel.Close ();
 	}
 
 	void  Update() {
@@ -41,6 +45,7 @@ public class SpawnEnemy : MonoBehaviour {
 						Instantiate(waves[currentWave].enemyPrefab);
 					if (newEnemy.GetComponent<Enemy>().type == Type.FLY) {
 						Debug.Log ("Fly wave");
+						nextWaveLabel.Open();//Fly wave
 					}
 					Destroy(newEnemy);
 				}
@@ -64,9 +69,8 @@ public class SpawnEnemy : MonoBehaviour {
 				    GameObject.FindGameObjectWithTag("Enemy") == null) {
 					gameManager.Wave++;
 					int currentWay = gameManager.Wave;
-					if (currentWay < waves.Length ) {
-
-					}
+					//NEXT WAVE
+					nextWaveLabel.Open();
 					//gameManager.Gold = Mathf.RoundToInt(gameManager.Gold * 1.1f);
 					enemiesSpawned = 0;
 					lastSpawnTime = Time.time;
