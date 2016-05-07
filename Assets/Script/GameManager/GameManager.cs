@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour {
     public bool gameOver = false;
 
 	private float timescale = 1.0f;
+	private bool paused = false;
     private int wave;
     public int Wave {
         get { return wave; }
@@ -99,6 +100,7 @@ public class GameManager : MonoBehaviour {
 		gamestate = state;
 		switch (gamestate) {
 			case GAMESTATE.GAMEPLAYING:
+				paused = false;
 				Time.timeScale = timescale;
 				break;
 			case GAMESTATE.GAMEPAUSE:
@@ -135,8 +137,16 @@ public class GameManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.T)) {
 			Score += 1000;
 		}
+		if (paused) {
+			SetGameState(GAMESTATE.GAMEPAUSE);
+		}
 
 	}
+
+	void OnApplicationPause(bool pauseStatus) {
+		paused = pauseStatus;
+	}
+
 
 	public void SetTimeScale(float time){
 		timescale = time;
