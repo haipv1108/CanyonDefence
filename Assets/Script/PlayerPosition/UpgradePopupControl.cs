@@ -42,6 +42,7 @@ public class UpgradePopupControl : MonoBehaviour {
 			sellPopup.SetActive (true);
 			if (placePlayer.player.GetComponent<PlayerData> ().getCostNextLevel() < GameManager.instance.Gold) {
 				//Lam mo object
+				upPopup.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,1f);
 				upPopup.SetActive (true);
 			} else {
 				upPopup.SetActive(true);
