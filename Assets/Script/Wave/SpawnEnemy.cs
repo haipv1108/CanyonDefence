@@ -18,7 +18,6 @@ public class SpawnEnemy : MonoBehaviour {
 
 	public GameObject testEnemyPrefab;
 
-	public GameObject flyWaveGO;
 	
 	void Awake(){
 		instance = this;
@@ -37,11 +36,10 @@ public class SpawnEnemy : MonoBehaviour {
 			
 				float timeInterval = Time.time - lastSpawnTime;
 				float spawnInterval = waves[currentWave].spawnInterval;
-				if (enemiesSpawned == 0 && !flyWaveGO.activeInHierarchy) {
+				if (enemiesSpawned == 0) {
 					GameObject newEnemy = (GameObject)
 						Instantiate(waves[currentWave].enemyPrefab);
 					if (newEnemy.GetComponent<Enemy>().type == Type.FLY) {
-						flyWaveGO.SetActive(true);
 						Debug.Log ("Fly wave");
 					}
 					Destroy(newEnemy);
@@ -51,9 +49,7 @@ public class SpawnEnemy : MonoBehaviour {
 				    enemiesSpawned < waves[currentWave].maxEnemies) {
 					// neu chua ra con enemy nao && thoi gian troi qua > thoi gian giua moi waves
 					// hoac thoi gian troi qua > thoi gian giua moi wave && chua ra het enemy
-					if (flyWaveGO.activeInHierarchy) {
-						flyWaveGO.SetActive(false);
-					}
+				
 					lastSpawnTime = Time.time;
 					GameObject newEnemy = (GameObject)
 						Instantiate(waves[currentWave].enemyPrefab);
