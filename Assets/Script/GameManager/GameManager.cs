@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour {
 
 	public int lives;
 
-    public GameObject[] nextWaveLabels;
+    public NextWaveLabel nextWaveLabel;
 
     public bool gameOver = false;
 
@@ -49,9 +49,8 @@ public class GameManager : MonoBehaviour {
         set {
             wave = value;
             if (!gameOver) {
-                for (int i = 0; i < nextWaveLabels.Length; i++) {
-                    nextWaveLabels[i].GetComponent<Animator>().SetTrigger("nextWave");
-                }
+				if(wave > 1 && nextWaveLabel != null)
+					nextWaveLabel.Open();
             }
 			waveText.text = GetCurrentWaveString();
         }
@@ -170,5 +169,6 @@ public enum GAMESTATE{
 	LOSEGAME,
 	WINGAME,
 	MENU,
-	SETTING
+	SETTING,
+	NEXTWAVE
 }
