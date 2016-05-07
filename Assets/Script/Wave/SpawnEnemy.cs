@@ -45,7 +45,7 @@ public class SpawnEnemy : MonoBehaviour {
 						Instantiate(waves[currentWave].enemyPrefab);
 					if (newEnemy.GetComponent<Enemy>().type == Type.FLY) {
 						Debug.Log ("Fly wave");
-						nextWaveLabel.Open();//Fly wave
+						nextWaveFlyLabel.Open();//Fly wave
 					}
 					Destroy(newEnemy);
 				}
