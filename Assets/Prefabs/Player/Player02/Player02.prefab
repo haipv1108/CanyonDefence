@@ -300,15 +300,15 @@ MonoBehaviour:
   levels:
   - cost: 200
     visualization: {fileID: 135856}
-    bullet: {fileID: 122662, guid: 359792aa8f7cbf14bb89a37ce2d13e8f, type: 2}
+    bullet: {fileID: 155734, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     fireRate: 1
   - cost: 250
     visualization: {fileID: 158058}
-    bullet: {fileID: 110206, guid: ee118749126648349855cab0bea637e7, type: 2}
+    bullet: {fileID: 152892, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     fireRate: 1
   - cost: 300
     visualization: {fileID: 156950}
-    bullet: {fileID: 192554, guid: 9f7310fa42ac719489b059a59455c24a, type: 2}
+    bullet: {fileID: 183646, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     fireRate: 1
 --- !u!114 &11498152
 MonoBehaviour:
@@ -452,7 +452,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].bullet
       value: 
-      objectReference: {fileID: 122662, guid: 359792aa8f7cbf14bb89a37ce2d13e8f, type: 2}
+      objectReference: {fileID: 155734, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].fireRate
       value: 1
@@ -460,7 +460,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].bullet
       value: 
-      objectReference: {fileID: 110206, guid: ee118749126648349855cab0bea637e7, type: 2}
+      objectReference: {fileID: 152892, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].fireRate
       value: 1
@@ -468,7 +468,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].bullet
       value: 
-      objectReference: {fileID: 192554, guid: 9f7310fa42ac719489b059a59455c24a, type: 2}
+      objectReference: {fileID: 183646, guid: 6adc7077100d2854ca3c381fb63b578b, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].fireRate
       value: 1

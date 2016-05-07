@@ -288,15 +288,15 @@ MonoBehaviour:
   levels:
   - cost: 120
     visualization: {fileID: 167622}
-    bullet: {fileID: 127478, guid: fa99e80c25f05ac4596139ae9af4da9e, type: 2}
+    bullet: {fileID: 156444, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     fireRate: 1
   - cost: 150
     visualization: {fileID: 162022}
-    bullet: {fileID: 178494, guid: a37e4b7467743a84d9407602312a62d8, type: 2}
+    bullet: {fileID: 182942, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     fireRate: 1
   - cost: 250
     visualization: {fileID: 176298}
-    bullet: {fileID: 103170, guid: 3925d4b4f1dd9944caaba037e5615d01, type: 2}
+    bullet: {fileID: 112580, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     fireRate: 1
 --- !u!114 &11410758
 MonoBehaviour:
@@ -309,6 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5baa7426a8c248847b384b6fc446484b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
 --- !u!114 &11489684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,6 +325,7 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 0
   defaultRotation: 90
+  isShowingRange: 0
 --- !u!212 &21203030
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -454,15 +456,15 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].bullet
       value: 
-      objectReference: {fileID: 127478, guid: fa99e80c25f05ac4596139ae9af4da9e, type: 2}
+      objectReference: {fileID: 156444, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].bullet
       value: 
-      objectReference: {fileID: 178494, guid: a37e4b7467743a84d9407602312a62d8, type: 2}
+      objectReference: {fileID: 182942, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].bullet
       value: 
-      objectReference: {fileID: 103170, guid: 3925d4b4f1dd9944caaba037e5615d01, type: 2}
+      objectReference: {fileID: 112580, guid: ca624570be0be2947828ddfe4860d2a2, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].visualization
       value: 
