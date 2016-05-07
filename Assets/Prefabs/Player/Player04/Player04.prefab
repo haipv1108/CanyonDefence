@@ -288,15 +288,15 @@ MonoBehaviour:
   levels:
   - cost: 250
     visualization: {fileID: 191106}
-    bullet: {fileID: 165742, guid: a099d6e712dbbde40bb94be166803843, type: 2}
+    bullet: {fileID: 168504, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     fireRate: 1
   - cost: 300
     visualization: {fileID: 183726}
-    bullet: {fileID: 169728, guid: 21025364c6ec0fb4fa4e8395508c26f0, type: 2}
+    bullet: {fileID: 184228, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     fireRate: 1
   - cost: 400
     visualization: {fileID: 140564}
-    bullet: {fileID: 188848, guid: ed6d77a5e03221341b1d16efc91ed2f7, type: 2}
+    bullet: {fileID: 111404, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     fireRate: 1
 --- !u!114 &11425022
 MonoBehaviour:
@@ -313,6 +313,7 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 0
   defaultRotation: 90
+  isShowingRange: 0
 --- !u!114 &11497200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,6 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5baa7426a8c248847b384b6fc446484b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
 --- !u!212 &21245508
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -450,15 +452,15 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].bullet
       value: 
-      objectReference: {fileID: 165742, guid: a099d6e712dbbde40bb94be166803843, type: 2}
+      objectReference: {fileID: 168504, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].bullet
       value: 
-      objectReference: {fileID: 169728, guid: 21025364c6ec0fb4fa4e8395508c26f0, type: 2}
+      objectReference: {fileID: 184228, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].bullet
       value: 
-      objectReference: {fileID: 188848, guid: ed6d77a5e03221341b1d16efc91ed2f7, type: 2}
+      objectReference: {fileID: 111404, guid: b1d609b0fcba0454cae1958f27664dd7, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].fireRate
       value: 1

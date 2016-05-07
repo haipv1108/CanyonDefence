@@ -288,15 +288,15 @@ MonoBehaviour:
   levels:
   - cost: 100
     visualization: {fileID: 105142}
-    bullet: {fileID: 119252, guid: b64329326c0e79e4d8692970b4228582, type: 2}
+    bullet: {fileID: 114016, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     fireRate: 1
   - cost: 150
     visualization: {fileID: 150190}
-    bullet: {fileID: 178962, guid: cb79d8dce642770479594ed5710633fa, type: 2}
+    bullet: {fileID: 167458, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     fireRate: 1
   - cost: 200
     visualization: {fileID: 127034}
-    bullet: {fileID: 186530, guid: 368f5a4dedd51d343a37ca3890895c79, type: 2}
+    bullet: {fileID: 157786, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     fireRate: 1
 --- !u!114 &11459166
 MonoBehaviour:
@@ -309,6 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5baa7426a8c248847b384b6fc446484b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
 --- !u!114 &11483716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,6 +325,7 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 0
   defaultRotation: 90
+  isShowingRange: 0
 --- !u!212 &21201584
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -454,7 +456,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].bullet
       value: 
-      objectReference: {fileID: 119252, guid: b64329326c0e79e4d8692970b4228582, type: 2}
+      objectReference: {fileID: 114016, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].fireRate
       value: 1
@@ -474,7 +476,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].bullet
       value: 
-      objectReference: {fileID: 178962, guid: cb79d8dce642770479594ed5710633fa, type: 2}
+      objectReference: {fileID: 167458, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].cost
       value: 200
@@ -486,7 +488,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].bullet
       value: 
-      objectReference: {fileID: 186530, guid: 368f5a4dedd51d343a37ca3890895c79, type: 2}
+      objectReference: {fileID: 157786, guid: 08cfa55240d0112439d110064be642bf, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].fireRate
       value: 1
