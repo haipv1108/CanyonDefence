@@ -113,7 +113,11 @@ public enum SFX{
 	PLAYER_DIE,
 	ENEMY_DIE,
 	VICTORY,
-	LOSE_GAME
+	LOSE_GAME,
+	THREE,
+	TWO,
+	ONE,
+	START
 }
 
 [System.Serializable]

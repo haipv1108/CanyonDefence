@@ -9,23 +9,26 @@ public class CountDown : MonoBehaviour {
 	
 	public void Count()
 	{
-		/*if (count == 1)
-			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.COUNT03_START);
-		if(count == 2)
-			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.COUNT02_START);
-		if(count == 3)
-			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.COUNT01_START);
-		if(count == 4)
-			if(SoundManager.instance != null) SoundManager.instance.PlaySTART_OVER (STARTOVER.START);*/
-			if (count >= texts.Length)
-			{
-				GameManager.instance.SetGameState(GAMESTATE.GAMEPLAYING);
-				Destroy(gameObject);
-				return;
-			}
-			text.text = texts[count].text;
-			count++;
+		if (count == 1)
+		if (SoundManager.instance != null)
+			SoundManager.instance.PlaySFX (SFX.THREE);
+		if (count == 2)
+		if (SoundManager.instance != null)
+			SoundManager.instance.PlaySFX (SFX.TWO);
+		if (count == 3)
+		if (SoundManager.instance != null)
+			SoundManager.instance.PlaySFX (SFX.ONE);
+		if (count == 4)
+		if (SoundManager.instance != null)
+			SoundManager.instance.PlaySFX (SFX.START);
 
-		
+		if (count >= texts.Length)
+		{
+			GameManager.instance.SetGameState(GAMESTATE.GAMEPLAYING);
+			Destroy(gameObject);
+			return;
+		}
+		text.text = texts[count].text;
+		count++;
 	}
 }
