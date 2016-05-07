@@ -33,6 +33,10 @@ public class ResultPopup : MonoBehaviour {
 	public void GoHome(){
 		//TODO Set gamestate = menu
 		//TODO Goto home menu
+		if (GameManager.instance != null) {
+			GameManager.instance.SetGameState(GAMESTATE.MENU);
+		}
+		LoadScene.Load (Strings.SCEN_MENU);
 	}
 
 	private void LoadInfo(){
