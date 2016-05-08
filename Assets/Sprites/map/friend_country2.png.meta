@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b8ad9d12186d44f9eb944946e3b646e3
-timeCreated: 1462619342
-licenseType: Free
+timeCreated: 1462670819
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: tree_1
@@ -12,6 +12,7 @@ TextureImporter:
     21300010: box_2
     21300012: player_place
     21300014: rung_xanh
+    21300016: cuaso
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -135,6 +136,16 @@ TextureImporter:
         y: 766
         width: 48
         height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cuaso
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1359
+        width: 52
+        height: 71
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
