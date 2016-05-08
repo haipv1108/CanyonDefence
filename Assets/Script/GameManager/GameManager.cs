@@ -69,6 +69,9 @@ public class GameManager : MonoBehaviour {
 			SoundManager.instance.PlayBGM(BGM.GAMEPLAY);
 		}
 		waveText.text = GetCurrentWaveString();
+		goldText.text = Gold.ToString ();
+		livesText.text = lives.ToString ();
+		scoreText.text = Score.ToString ();
     }
 
 	public void DecreeHealth() {

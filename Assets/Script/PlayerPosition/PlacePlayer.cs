@@ -42,6 +42,13 @@ public class PlacePlayer : MonoBehaviour {
 				}
 			}
 		}
+		if (GameManager.instance.gamestate == GAMESTATE.LOSEGAME || GameManager.instance.gamestate == GAMESTATE.WINGAME) {
+			if(isActivePopup){
+				CloseUpgradePopup();
+				CloseListPlayer();
+				CloseAllPopup();
+			}
+		}
 
     }
 
