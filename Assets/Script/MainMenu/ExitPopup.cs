@@ -23,7 +23,7 @@ public class ExitPopup : MonoBehaviour {
     public void QuitGamePlay() {
 		GameManager.instance.SetGameState (GAMESTATE.MENU);
         gameObject.SetActive(false);
-        Application.LoadLevel(Strings.SCEN_MENU);
+		LoadScene.Load (Strings.SCEN_MENU);
     }
 
     public void QuitGame()
