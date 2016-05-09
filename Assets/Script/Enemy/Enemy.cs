@@ -54,6 +54,17 @@ public class Enemy : MonoBehaviour {
 
 	void Awake() {
 		observers = new List<EnemyObserver>();
+		switch (Attributes.difficulty) {
+		case 1:
+			speed *= 0.75f;
+			break;
+		case 2:
+			speed *= 1.25f;
+			break;
+		case 3:
+			speed *= 1.75f;
+			break;
+		}
 	}
 	// Use this for initialization
 	void Start () {
