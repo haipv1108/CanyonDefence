@@ -26,6 +26,10 @@ public class ExitPopup : MonoBehaviour {
 		LoadScene.Load (Strings.SCEN_MENU);
     }
 
+	public void RetryGamePlay(){
+		LoadScene.Load (Application.loadedLevelName);
+	}
+
     public void QuitGame()
     {
         Application.Quit();
