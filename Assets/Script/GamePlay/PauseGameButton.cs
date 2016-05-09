@@ -30,6 +30,9 @@ public class PauseGameButton : MonoBehaviour {
 			if (GameManager.instance != null) {
 				GameManager.instance.SetGameState(GAMESTATE.GAMEPAUSE);
 			}
+			if (SoundManager.instance != null) {
+				SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+			}
 		}
 
 	}

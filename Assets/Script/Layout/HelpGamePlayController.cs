@@ -6,6 +6,25 @@ public class HelpGamePlayController : MonoBehaviour {
 	public GameObject[] HelpList;
 	private int currentID;
 
+	public void Open(){
+		gameObject.SetActive (true);
+	}
+
+	public void Close(){
+		//TODO Change gamestate
+		gameObject.SetActive (false);
+		// Luu lai thong so
+		Attributes.SetWatchHelp ();//Luu lai trang thai nguoi dung xem rooi
+		if (GameManager.instance != null) {
+			if(GameManager.instance.preGameState == null){
+				GameManager.instance.SetGameState(GAMESTATE.GAMESTART);
+			}else{
+				GameManager.instance.SetGameState(GameManager.instance.preGameState);
+			}
+
+		}
+	}
+
 	// Use this for initialization
 	void Start () {
 		currentID = 0;
@@ -20,12 +39,16 @@ public class HelpGamePlayController : MonoBehaviour {
 	public void ClickNextBtn()
 	{
 		if (currentID + 1 >= HelpList.Length)
-			ClickBackBtn ();
+			ClickSkipBtn ();
 
-		if (currentID + 1 <= HelpList.Length - 1 ) {
-			SetStatus(currentID, false);
+		if (currentID + 1 <= HelpList.Length - 1) {
+			SetStatus (currentID, false);
 			currentID ++;
-			SetStatus(currentID, true);
+			SetStatus (currentID, true);
+		}
+
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
 		}
 	}
 
@@ -36,10 +59,17 @@ public class HelpGamePlayController : MonoBehaviour {
 			currentID --;
 			SetStatus(currentID, true);
 		}
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+		}
 	}
 
 	public void ClickSkipBtn()
 	{
 		print ("Start Game................");
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+		}
+		Close ();
 	}
 }

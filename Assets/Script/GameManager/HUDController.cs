@@ -12,6 +12,10 @@ public class HUDController : MonoBehaviour {
 			GameManager.instance.SetGameState(GAMESTATE.SETTING);
 		}
 		settingPopup.SetActive (true);
+
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.OPEN_DIALOG);
+		}
 	}
 
 	public void CloseSetting(){
@@ -26,6 +30,9 @@ public class HUDController : MonoBehaviour {
 			}
 		}
 		settingPopup.SetActive (false);
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
+		}
 	}
 
 	public void UpSpeedGame(){
@@ -44,6 +51,10 @@ public class HUDController : MonoBehaviour {
 		}
 		if(GameManager.instance != null){
 			GameManager.instance.SetTimeScale(time);
+		}
+
+		if (SoundManager.instance != null) {
+			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
 		}
 	}
 	

@@ -15,9 +15,19 @@ public class Attributes {
 	public static float sfx_volume = PlayerPrefs.GetFloat(Strings.SFX_VOLUME, 0.5f);
 	public static string user_name = PlayerPrefs.GetString(Strings.USER_NAME, "");
 
+	public static int watch_help = PlayerPrefs.GetInt (Strings.DATA_WATCH_HELP, IS_OFF);
+
 	public static int IS_ON = 1;
 	public static int IS_OFF = 0;
 
+	public static int GetWatchHelp(){
+		return watch_help;
+	}
+
+	public static void SetWatchHelp(){
+		watch_help = IS_ON;
+		PlayerPrefs.SetInt (Strings.DATA_WATCH_HELP, watch_help);
+	}
 
 	// Kiem tra am thanh background
 	public static bool isSoundBGOn(){

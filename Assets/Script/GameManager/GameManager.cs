@@ -36,8 +36,9 @@ public class GameManager : MonoBehaviour {
 	public Text livesText;
 
 	public int lives;
-
-    public NextWaveLabel nextWaveLabel;
+	
+	public GameObject startGameObject;
+	public HelpGamePlayController helpPopup;
 
     public bool gameOver = false;
 
@@ -54,11 +55,11 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+
     void Awake(){
 		wave = 0;
 		instance = this;
 		timescale = 1.0f;
-		SetGameState (GAMESTATE.GAMESTART);
 	}
 
     void Start() {
@@ -72,6 +73,7 @@ public class GameManager : MonoBehaviour {
 		goldText.text = Gold.ToString ();
 		livesText.text = lives.ToString ();
 		scoreText.text = Score.ToString ();
+		CheckGameState ();
     }
 
 	public void DecreeHealth() {
@@ -108,6 +110,8 @@ public class GameManager : MonoBehaviour {
 				Time.timeScale = 0.0f;
 				break;
 			case GAMESTATE.GAMESTART:
+				if(!startGameObject.activeSelf)
+					startGameObject.SetActive(true);
 				Time.timeScale = timescale;
 				break;
 			case GAMESTATE.LOSEGAME:
@@ -131,6 +135,9 @@ public class GameManager : MonoBehaviour {
 			case GAMESTATE.SETTING:
 				Time.timeScale = 0.0f;
 				break;
+			case GAMESTATE.HELP:
+				helpPopup.Open();
+				break;
 		}
 	}
 
@@ -138,10 +145,13 @@ public class GameManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.T)) {
 			SetTimeScale(3.0f);
 		}
-		if (paused) {
+		if (paused && gamestate != GAMESTATE.HELP) {
 			SetGameState(GAMESTATE.GAMEPAUSE);
 		}
 		Debug.Log (gamestate);
+		if (Input.GetKeyDown (KeyCode.H)) {
+			SetGameState(GAMESTATE.HELP);
+		}
 
 	}
 
@@ -163,6 +173,15 @@ public class GameManager : MonoBehaviour {
 		}
 		return text;
 	}
+
+	private void CheckGameState(){
+		Debug.Log ("LOL" + Attributes.GetWatchHelp());
+		if (Attributes.GetWatchHelp () != Attributes.IS_ON) {
+			SetGameState (GAMESTATE.HELP);
+		} else {
+			SetGameState(GAMESTATE.GAMESTART);
+		}
+	}
 }
 
 public enum GAMESTATE{
@@ -173,5 +192,6 @@ public enum GAMESTATE{
 	WINGAME,
 	MENU,
 	SETTING,
-	NEXTWAVE
+	NEXTWAVE,
+	HELP
 }

@@ -6,6 +6,9 @@ public class ExitPopup : MonoBehaviour {
     public void Open() {
         if(!gameObject.activeSelf)
             gameObject.SetActive(true);
+		if(SoundManager.instance != null){
+			SoundManager.instance.PlaySFX(SFX.OPEN_DIALOG);
+		}
     }
 
     public void Close() {
