@@ -88,7 +88,7 @@ public class ResultPopup : MonoBehaviour {
 		if (SpawnEnemy.instance != null) {
 			int maxWave = SpawnEnemy.instance.getMaxWave ();
 			int currentWave = SpawnEnemy.instance.getCurrentWave ();
-			text += currentWave + "/" + maxWave;
+			text += currentWave + 1 + "/" + maxWave;
 		}
 		return text;
 	}
