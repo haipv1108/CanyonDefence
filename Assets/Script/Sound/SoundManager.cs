@@ -26,56 +26,56 @@ public class SoundManager : MonoBehaviour {
 
 	void Awake(){
 		instance = this;
-		isChangeBGMVolume = false;
-		isChangeSFXVolume = false;
 	}
 
 	public void PlayBGM(BGM bgmName){
-		if (Attributes.isSoundBGOn ()) {
+		//if (Attributes.isSoundBGOn ()) {
 			foreach(BGMEntry entry in bgms){
 				if(entry.name == bgmName){
 					bgm.clip = entry.music;
 					bgm.volume = Attributes.getBGMVolume();
+					Debug.Log("SoundManager BGM: " + bgm.volume);
 					bgm.Play();
 					return;
 				}
 			}
-		}
+		//}
 	}
 
 	public void PauseBGM(BGM bgmName){
-		if (Attributes.isSoundBGOn ()) {
+		//if (Attributes.isSoundBGOn ()) {
 			foreach(BGMEntry entry in bgms){
 				if(entry.name == bgmName){
 					bgm.clip = entry.music;
 					bgm.Pause();
 				}
 			}
-		}
+		//}
 	}
 
 	public void PlaySFX(SFX sfxName){
-		if (Attributes.isSoundSFXOn ()) {
+		//if (Attributes.isSoundSFXOn ()) {
 			foreach(SFXEntry entry in sfxs){
 				if(entry.name == sfxName){
 					sfx.clip = entry.sound;
 					sfx.volume = Attributes.getSFXVolume();
+					Debug.Log("SoundManager SFX: " + sfx.volume);
 					sfx.Play();
 					return;
 				}
 			}
-		}
+		//}
 	}
 
 	public void PauseSFX(SFX sfxName){
-		if (Attributes.isSoundSFXOn ()) {
+		//if (Attributes.isSoundSFXOn ()) {
 			foreach(SFXEntry entry in sfxs){
 				if(entry.name == sfxName){
 					sfx.clip = entry.sound;
 					sfx.Pause();
 				}
 			}
-		}
+		//}
 	}
 
 	void Update(){
@@ -87,14 +87,6 @@ public class SoundManager : MonoBehaviour {
 			sfx.volume = Attributes.getSFXVolume ();
 			isChangeSFXVolume = false;
 		}
-	}
-
-	public void ChangeBGMVolume(){
-		isChangeBGMVolume = true;
-	}
-
-	public void ChangeSFXVolume(){
-		isChangeSFXVolume = true;
 	}
 }
 
