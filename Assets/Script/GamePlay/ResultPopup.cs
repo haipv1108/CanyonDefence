@@ -96,7 +96,7 @@ public class ResultPopup : MonoBehaviour {
 	private string LoadScoreInfo(){
 		string text = "Scores: ";
 		if (GameManager.instance != null) {
-			text += GameManager.instance.Score;
+			text += GetScore();
 		}
 		return text;
 	}
@@ -104,9 +104,7 @@ public class ResultPopup : MonoBehaviour {
 	private bool CheckHighScore(){
 		int score = 0;
 		bool ok = true;
-		if (GameManager.instance != null) {
-			score = GameManager.instance.Score;
-		}
+		score = GetScore ();
 		List<int> listScore = Attributes.getListScore ();
 		foreach (int s in listScore) {
 			if(score < s){
@@ -117,5 +115,25 @@ public class ResultPopup : MonoBehaviour {
 		Attributes.addScoreToList (score);
 		//Check highscore
 		return ok;
+	}
+
+	private int GetScore(){
+		float k = 0;
+		switch (Attributes.difficulty) {
+			case 1:
+				k = 0.0f;
+				break;
+			case 2:
+				k = 0.4f;
+				break;
+			case 3: 
+				k = 0.6f;
+				break;
+			default:
+				k = 0;
+				break;
+		}
+		int score = GameManager.instance.Score + (int)(GameManager.instance.Score * k);
+		return score;
 	}
 }
