@@ -174,9 +174,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
       propertyPath: m_Text
-      value: '40 ATTACKS
+      value: '5 ATTACKS
 
-        WAY DELAY 1:30
+        SPEED ENEMY: 1.25%
 
         SCORE BONUS 40%'
       objectReference: {fileID: 0}
@@ -258,6 +258,10 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: 84208754d8beb4a35a01090ab2e78629,
         type: 3}
+    - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11499256, guid: 68de8f20840744017901489002186113, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 68de8f20840744017901489002186113, type: 2}
@@ -447,9 +451,9 @@ Prefab:
       objectReference: {fileID: 955523391}
     - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
       propertyPath: m_Text
-      value: '30 ATTACKS
+      value: '5 ATTACKS
 
-        WAY DELAY 2:00
+        SPEED ENEMY: 0.75%
 
         SCORE BONUS 0%'
       objectReference: {fileID: 0}
@@ -531,6 +535,10 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: 84208754d8beb4a35a01090ab2e78629,
         type: 3}
+    - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68de8f20840744017901489002186113, type: 2}
   m_IsPrefabParent: 0
@@ -756,9 +764,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
       propertyPath: m_Text
-      value: '55 ATTACKS
+      value: '5 ATTACKS
 
-        WAY DELAY 1:00
+        SPEED ENEMY: 1.75%
 
         SCORE BONUS 60%'
       objectReference: {fileID: 0}
@@ -840,6 +848,10 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: 84208754d8beb4a35a01090ab2e78629,
         type: 3}
+    - target: {fileID: 11402024, guid: 68de8f20840744017901489002186113, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11499256, guid: 68de8f20840744017901489002186113, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 68de8f20840744017901489002186113, type: 2}
@@ -965,11 +977,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
       propertyPath: m_Color.g
-      value: .787018239
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
       propertyPath: m_Color.b
-      value: .558823526
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11493706, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
       propertyPath: m_Colors.m_NormalColor.r
@@ -1052,6 +1064,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 72794e9f804554c41be5c1b256b0304d,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 11483166, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
@@ -2488,6 +2505,11 @@ Prefab:
       value: 
       objectReference: {fileID: 12800000, guid: 42bf22a4266a04be88dcbcdb82707a28,
         type: 3}
+    - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 15a0a723fed1cce46badb1d52b3e8dee,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 11483166, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
@@ -2611,7 +2633,7 @@ Prefab:
     - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 113effc0578ea7b419788f0442aa9f2f,
+      objectReference: {fileID: 21300000, guid: 52e9903f1e54c3c409d7384cf15f7e6a,
         type: 3}
     - target: {fileID: 11447432, guid: 265634f0c9b724cd4801d41d8c13cf5a, type: 2}
       propertyPath: m_PreserveAspect

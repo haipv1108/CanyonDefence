@@ -27,8 +27,7 @@ public class HelpGamePlayController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		currentID = 0;
-		HelpList [0].SetActive (true);
+		SetDefault ();
 	}
 
 	void SetStatus(int index, bool value)
@@ -71,5 +70,10 @@ public class HelpGamePlayController : MonoBehaviour {
 			SoundManager.instance.PlaySFX(SFX.CLICK_BUTTON);
 		}
 		Close ();
+	}
+
+	private void SetDefault(){
+		currentID = 0;
+		HelpList [0].SetActive (true);
 	}
 }
