@@ -48,6 +48,9 @@ public class Attributes {
 	// Set BGM Level volume
 	public static void setBGMVolume(float volume){
 		bgm_volume = volume;
+		if (SoundManager.instance != null) {
+			SoundManager.instance.ChangeBGMVolume();
+		}
 		PlayerPrefs.SetFloat (Strings.BGM_VOLUME, bgm_volume);
 	}
 
@@ -59,6 +62,9 @@ public class Attributes {
 	// Set SFX Level volume
 	public static void setSFXVolume(float volume){
 		sfx_volume = volume;
+		if (SoundManager.instance != null) {
+			SoundManager.instance.ChangeSFXVolume();
+		}
 		PlayerPrefs.SetFloat (Strings.SFX_VOLUME, sfx_volume);
 	}
 

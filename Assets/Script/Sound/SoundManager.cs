@@ -10,8 +10,8 @@ public class SoundManager : MonoBehaviour {
 	public BGMEntry[] bgms;
 	public SFXEntry[] sfxs;
 
-	private bool isChangeBGMVolume;
-	private bool isChangeSFXVolume;
+	//private bool isChangeBGMVolume;
+	//private bool isChangeSFXVolume;
 
 	private AudioSource secondarySFX;
 
@@ -78,7 +78,7 @@ public class SoundManager : MonoBehaviour {
 		//}
 	}
 
-	void Update(){
+	/*void Update(){
 		if (isChangeBGMVolume) {
 			bgm.volume = Attributes.getBGMVolume ();
 			isChangeBGMVolume = false;
@@ -87,6 +87,16 @@ public class SoundManager : MonoBehaviour {
 			sfx.volume = Attributes.getSFXVolume ();
 			isChangeSFXVolume = false;
 		}
+	}*/
+
+	public void ChangeBGMVolume(){
+		bgm.volume = Attributes.getBGMVolume ();
+		//isChangeBGMVolume = true;
+	}
+
+	public void ChangeSFXVolume(){
+		sfx.volume = Attributes.getSFXVolume ();
+		//isChangeSFXVolume = true;
 	}
 }
 
