@@ -1428,6 +1428,9 @@ MonoBehaviour:
   dif1: {fileID: 577558061}
   dif2: {fileID: 131304091}
   dif3: {fileID: 588127881}
+  textEasy: {fileID: 1575165785}
+  textMedium: {fileID: 1258409570}
+  textHard: {fileID: 1108927008}
 --- !u!4 &955523392
 Transform:
   m_ObjectHideFlags: 0
@@ -1444,6 +1447,12 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 112984, guid: 68de8f20840744017901489002186113, type: 2}
   m_PrefabInternal: {fileID: 431510511}
+--- !u!114 &1108927008 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11402024, guid: 68de8f20840744017901489002186113,
+    type: 2}
+  m_PrefabInternal: {fileID: 431510511}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!114 &1108927010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,6 +1557,12 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 112984, guid: 68de8f20840744017901489002186113, type: 2}
   m_PrefabInternal: {fileID: 82838537}
+--- !u!114 &1258409570 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11402024, guid: 68de8f20840744017901489002186113,
+    type: 2}
+  m_PrefabInternal: {fileID: 82838537}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!114 &1258409572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2101,6 +2116,12 @@ Canvas:
 GameObject:
   m_PrefabParentObject: {fileID: 112984, guid: 68de8f20840744017901489002186113, type: 2}
   m_PrefabInternal: {fileID: 214976065}
+--- !u!114 &1575165785 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11402024, guid: 68de8f20840744017901489002186113,
+    type: 2}
+  m_PrefabInternal: {fileID: 214976065}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!114 &1575165786
 MonoBehaviour:
   m_ObjectHideFlags: 0

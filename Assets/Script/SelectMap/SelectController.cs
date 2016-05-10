@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SelectController : MonoBehaviour {
 
@@ -19,6 +20,10 @@ public class SelectController : MonoBehaviour {
 	private Animator dif1Anim;
 	private Animator dif2Anim;
 	private Animator dif3Anim;
+
+	public Text textEasy;
+	public Text textMedium;
+	public Text textHard;
 
 	// Use this for initialization
 	void Start () {
@@ -52,6 +57,7 @@ public class SelectController : MonoBehaviour {
 		else
 			Attributes.mapID = 1;
 
+		LoadTextDefficulty ();
 		SetTriggerSelectMap ();
 		Debug.Log ("SELECTED MAP: " + Attributes.mapID);
 	}
@@ -71,10 +77,9 @@ public class SelectController : MonoBehaviour {
 
 		GotoMap ();
 	}
-
+	
 	public void BackMainMenu() {
 		LoadScene.Load (Strings.SCEN_MENU);
-		//Application.LoadLevel (Strings.SCEN_MENU);
 	}
 
 	public void BackSelectMap() {
@@ -114,4 +119,39 @@ public class SelectController : MonoBehaviour {
 		}
 	}
 
+	private void LoadTextDefficulty(){
+		switch (Attributes.mapID) {
+		case 1:
+			LoadTextMap1();
+			break;
+		case 2: 
+			LoadTextMap2();
+			break;
+		case 3:
+			LoadTextMap3();
+			break;
+		default:
+			LoadTextMap1();
+			break;
+
+		}
+	}
+
+	private void LoadTextMap1(){
+		textEasy.text = " 5 ATTACKS \n SPEED ENEMY: 0.75% \n SCORE BONUS 0%";
+		textMedium.text = " 5 ATTACKS \n SPEED ENEMY: 1.25% \n SCORE BONUS 40%";
+		textHard.text = " 5 ATTACKS \n SPEED ENEMY: 1.75% \n SCORE BONUS 60%";
+	}
+
+	private void LoadTextMap2(){
+		textEasy.text = " 5 ATTACKS \n SPEED ENEMY: 0.75% \n SCORE BONUS 0%";
+		textMedium.text = " 5 ATTACKS \n SPEED ENEMY: 1.25% \n SCORE BONUS 40%";
+		textHard.text = " 5 ATTACKS \n SPEED ENEMY: 1.75% \n SCORE BONUS 60%";
+	}
+
+	private void LoadTextMap3(){
+		textEasy.text = " 10 ATTACKS \n SPEED ENEMY: 0.75% \n SCORE BONUS 0%";
+		textMedium.text = " 10 ATTACKS \n SPEED ENEMY: 1.25% \n SCORE BONUS 40%";
+		textHard.text = " 10 ATTACKS \n SPEED ENEMY: 1.75% \n SCORE BONUS 60%";
+	}
 }
